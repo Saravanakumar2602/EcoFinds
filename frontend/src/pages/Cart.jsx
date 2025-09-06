@@ -1,14 +1,12 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext } from "react";
+import { CartContext } from "../context/CartContext";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/pages/cart.css";
 
 function Cart() {
-  const [cart, setCart] = useState([
-    { id: 1, title: "Eco Bag", price: 200, image: "https://via.placeholder.com/300" },
-    { id: 2, title: "Recycled Notebook", price: 100, image: "https://via.placeholder.com/300" },
-  ]); // placeholder cart
-
+  const { cart, removeFromCart } = useContext(CartContext);
   const total = cart.reduce((sum, item) => sum + item.price, 0);
+  const navigate = useNavigate();
 
   return (
     <div className="cart-container">
@@ -20,21 +18,19 @@ function Cart() {
           <div className="cart-products">
             {cart.map((item) => (
               <div className="cart-card" key={item.id}>
-                <Link to={`/products/${item.id}`} className="cart-card-link">
-                  <div className="cart-card-image">
-                    <img src={item.image || "https://via.placeholder.com/300"} alt={item.title} />
-                  </div>
-                  <div className="cart-card-info">
-                    <div className="cart-card-title">{item.title}</div>
-                    <div className="cart-card-price">₹{item.price}</div>
-                  </div>
-                </Link>
-                <button onClick={() => setCart(cart.filter((c) => c.id !== item.id))}>Remove</button>
+                <div className="cart-card-image">
+                  <img src={item.image || "https://via.placeholder.com/300"} alt={item.title || item.name || "Product"} />
+                </div>
+                <div className="cart-card-info">
+                  <div className="cart-card-title">{item.title || item.name || "Product"}</div>
+                  <div className="cart-card-price">₹{item.price}</div>
+                </div>
+                <button onClick={() => removeFromCart(item.id)}>Remove</button>
               </div>
             ))}
           </div>
           <h3>Total: ₹{total}</h3>
-          <button>Proceed to Checkout</button>
+          <button onClick={() => navigate('/checkout')}>Proceed to Checkout</button>
         </>
       )}
     </div>

@@ -1,6 +1,7 @@
 
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect, useState, useContext } from "react";
+import { CartContext } from "../context/CartContext";
+import { useParams, useNavigate } from "react-router-dom";
 import productService from "../services/productService";
 import ReviewSection from "../components/ReviewSection";
 import "../styles/pages/productDetail.css";
@@ -10,6 +11,8 @@ function ProductDetail() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [reviews, setReviews] = useState([]);
+  const { addToCart } = useContext(CartContext);
+  const navigate = useNavigate();
 
   useEffect(() => {
     async function fetchProduct() {
@@ -32,8 +35,8 @@ function ProductDetail() {
       <p className="product-detail-description">{product.description}</p>
       <p className="product-detail-price"><strong>Price: </strong> ₹{product.price}</p>
       <div className="product-detail-actions">
-        <button>Add to Cart</button>
-        <button>Buy Now</button>
+        <button onClick={() => addToCart(product)}>Add to Cart</button>
+        <button onClick={() => navigate('/checkout')}>Buy Now</button>
       </div>
       <ReviewSection reviews={reviews} onAddReview={handleAddReview} />
     </div>

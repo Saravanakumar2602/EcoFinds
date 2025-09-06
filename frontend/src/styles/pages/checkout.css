@@ -1,0 +1,23 @@
+.checkout-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 #e0e7ef;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.checkout-container h2 {
+  color: #2343a0;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.checkout-container p {
+  color: #3b5bdb;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
