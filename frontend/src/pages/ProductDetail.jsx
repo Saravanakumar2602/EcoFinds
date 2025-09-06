@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import productService from "../services/productService";
+import "../styles/pages/productDetail.css";
 
 function ProductDetail() {
   const { id } = useParams();
@@ -17,13 +18,15 @@ function ProductDetail() {
   if (!product) return <p>Loading...</p>;
 
   return (
-    <div>
-      <h2>{product.title}</h2>
-      <img src={product.image || "https://via.placeholder.com/300"} alt={product.title} />
-      <p>{product.description}</p>
-      <p><strong>Price: </strong> ₹{product.price}</p>
-      <button>Add to Cart</button>
-      <button>Buy Now</button>
+    <div className="product-detail-container">
+      <h2>{product.title || product.name}</h2>
+      <img src={product.image || "https://via.placeholder.com/300"} alt={product.title || product.name} />
+      <p className="product-detail-description">{product.description}</p>
+      <p className="product-detail-price"><strong>Price: </strong> ₹{product.price}</p>
+      <div className="product-detail-actions">
+        <button>Add to Cart</button>
+        <button>Buy Now</button>
+      </div>
     </div>
   );
 }

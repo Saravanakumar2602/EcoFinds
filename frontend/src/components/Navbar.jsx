@@ -21,6 +21,12 @@ function Navbar() {
             <Link to="/cart" className={location.pathname === "/cart" ? "active" : ""}>Cart</Link>
           </li>
           <li>
+            <Link to="/purchases" className={location.pathname === "/purchases" ? "active" : ""}>Previous Purchase</Link>
+          </li>
+          <li>
+            <Link to="/my-listings" className={location.pathname === "/my-listings" ? "active" : ""}>My Listings</Link>
+          </li>
+          <li>
             <Link to="/dashboard" className={location.pathname === "/dashboard" ? "active" : ""}>Dashboard</Link>
           </li>
           <li>

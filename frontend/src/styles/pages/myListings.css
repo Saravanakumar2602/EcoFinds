@@ -1,51 +1,123 @@
 /* My Listings Page Styles */
 
 .my-listings-container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 3rem auto;
   background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 2px 16px 0 #e0e7ef;
-  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 #e0e7ef;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
   animation: fadeIn 0.8s ease;
 }
 
-.my-listings-container h2 {
-  color: #22223b;
+.my-listings-title {
+  color: #1a237e;
   text-align: center;
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
 }
 
-.my-listings-container ul {
-  margin-bottom: 1.5rem;
+.my-listings-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
 }
 
-.my-listings-container li {
+.listing-card {
+  background: #eaf1fb;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(99, 102, 241, 0.08);
+  padding: 1.5rem 1.2rem 1.5rem 1.2rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 0.7rem 0;
-  border-bottom: 1px solid #e0e7ef;
-  font-size: 1.1rem;
+  min-height: 180px;
+  position: relative;
+  transition: box-shadow 0.2s, transform 0.15s;
 }
-
-.my-listings-container button {
-  padding: 0.5rem 1.2rem;
+.listing-card:hover {
+  box-shadow: 0 8px 32px 0 #6366f144;
+  transform: translateY(-4px) scale(1.04);
+}
+.listing-image {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 0.7rem;
+  background: #f5f6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.listing-title {
+  color: #1a237e;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.listing-price {
+  color: #3b82f6;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.listing-actions {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.7rem;
+}
+.listing-actions button {
+  padding: 0.5rem 1.1rem;
   background: linear-gradient(90deg, #6366f1 60%, #3b82f6 100%);
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
   border-radius: 8px;
-  box-shadow: 0 2px 12px 0 #c7d2fe;
-  margin-left: 0.7rem;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  box-shadow: 0 2px 8px 0 #c7d2fe;
   border: none;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
 }
-.my-listings-container button:hover {
+.listing-actions button:hover {
   background: linear-gradient(90deg, #3b82f6 60%, #6366f1 100%);
-  box-shadow: 0 4px 20px 0 #6366f144;
+  box-shadow: 0 4px 16px 0 #6366f144;
+  transform: scale(1.06);
+}
+.add-listing-btn {
+  display: block;
+  margin: 2rem auto 2rem auto;
+  background: linear-gradient(90deg, #3b5bdb 60%, #4f8cff 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px 0 #b3c6fc;
+  padding: 0.8rem 2.2rem;
+  border: none;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.add-listing-btn:hover {
+  background: linear-gradient(90deg, #2343a0 60%, #3b5bdb 100%);
+  box-shadow: 0 4px 20px 0 #3b5bdb44;
   transform: scale(1.03);
+}
+
+@media (max-width: 900px) {
+  .my-listings-container {
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+  }
+  .my-listings-list {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.2rem;
+  }
 }

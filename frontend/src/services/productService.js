@@ -4,6 +4,7 @@ import products from "../data/products"; // fallback mock data
 
 const USE_MOCK = true; // set false when backend is ready
 
+
 const productService = {
   getAll: async () => {
     if (USE_MOCK) return products; // mock
@@ -15,5 +16,16 @@ const productService = {
     const res = await api.get(`/products/${id}`);
     return res.data;
   },
+  add: async (product) => {
+    if (USE_MOCK) {
+      // Add to mock data (in-memory only, not persistent)
+      const newProduct = { ...product, id: products.length + 1 };
+      products.push(newProduct);
+      return newProduct;
+    }
+    const res = await api.post("/products", product);
+    return res.data;
+  },
 };
+
 export default productService;
