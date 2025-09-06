@@ -1,0 +1,58 @@
+/* Add Product Page Styles */
+
+.add-product-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px 0 #e0e7ef;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  animation: fadeInDown 0.7s cubic-bezier(.39,.575,.565,1.000);
+}
+
+.add-product-container h2 {
+  color: #22223b;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.add-product-container input[type="text"],
+.add-product-container input[type="number"],
+.add-product-container textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1.5px solid #6366f1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8fafc;
+  box-shadow: 0 1px 6px 0 #e0e7ef44;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.add-product-container input:focus,
+.add-product-container textarea:focus {
+  outline: none;
+  border: 1.5px solid #3b82f6;
+  box-shadow: 0 2px 12px 0 #6366f133;
+}
+
+.add-product-container button[type="submit"] {
+  width: 100%;
+  padding: 0.7rem 0;
+  background: linear-gradient(90deg, #6366f1 60%, #3b82f6 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 #c7d2fe;
+  margin-top: 0.5rem;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.add-product-container button[type="submit"]:hover {
+  background: linear-gradient(90deg, #3b82f6 60%, #6366f1 100%);
+  box-shadow: 0 4px 20px 0 #6366f144;
+  transform: scale(1.03);
+}

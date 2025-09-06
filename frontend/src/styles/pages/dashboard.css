@@ -1,0 +1,45 @@
+/* Dashboard Page Styles */
+
+.dashboard-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px 0 #e0e7ef;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  animation: fadeIn 0.8s ease;
+}
+
+.dashboard-container h2 {
+  color: #22223b;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.dashboard-container p {
+  font-size: 1.1rem;
+  color: #3d3d3d;
+  margin-bottom: 1rem;
+}
+
+.dashboard-container button {
+  padding: 0.7rem 1.5rem;
+  margin-right: 1rem;
+  background: linear-gradient(90deg, #6366f1 60%, #3b82f6 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 #c7d2fe;
+  margin-top: 0.5rem;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  border: none;
+}
+.dashboard-container button:hover {
+  background: linear-gradient(90deg, #3b82f6 60%, #6366f1 100%);
+  box-shadow: 0 4px 20px 0 #6366f144;
+  transform: scale(1.03);
+}
