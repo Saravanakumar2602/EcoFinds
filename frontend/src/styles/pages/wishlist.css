@@ -1,0 +1,29 @@
+/* Wishlist Page Styles */
+.wishlist-container {
+  max-width: 1100px;
+  margin: 3rem auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 #e0e7ef;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  animation: fadeIn 0.8s ease;
+}
+.wishlist-title {
+  color: #2343a0;
+  text-align: center;
+  margin-bottom: 2.2rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+.no-wishlist {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}

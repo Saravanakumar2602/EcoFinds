@@ -1,9 +1,11 @@
+
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import productService from "../services/productService";
 import ProductCard from "../components/ProductCard";
 import SearchBar from "../components/SearchBar";
 import CategoryFilter from "../components/CategoryFilter";
-import { useNavigate } from "react-router-dom";
+import { useWishlist } from "../context/WishlistContext";
 import "../styles/pages/productFeed.css";
 
 function ProductFeed() {
@@ -11,14 +13,13 @@ function ProductFeed() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("");
   const [categories, setCategories] = useState([]);
+  const { wishlist, addToWishlist, removeFromWishlist, isWishlisted } = useWishlist();
   const navigate = useNavigate();
 
   useEffect(() => {
     async function fetchProducts() {
       const data = await productService.getAll();
       setProducts(data);
-
-      // Extract unique categories
       setCategories([
         ...new Set(
           data.map(
@@ -43,6 +44,13 @@ function ProductFeed() {
       : true;
     return matchesQuery && matchesCategory;
   });
+
+
+  // Wishlist logic
+  const handleFavorite = (product, fav) => {
+    if (fav) addToWishlist(product);
+    else removeFromWishlist(product);
+  };
 
   return (
     <div className="product-feed-container">
@@ -76,7 +84,12 @@ function ProductFeed() {
           <div className="no-products">No products found.</div>
         ) : (
           filteredProducts.map((p) => (
-            <ProductCard key={p._id || p.id} product={p} />
+            <ProductCard
+              key={p._id || p.id}
+              product={p}
+              onFavorite={handleFavorite}
+              isFavorite={isWishlisted(p)}
+            />
           ))
         )}
       </div>

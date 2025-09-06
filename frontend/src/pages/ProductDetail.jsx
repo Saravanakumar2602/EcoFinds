@@ -1,11 +1,15 @@
+
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import productService from "../services/productService";
+import ReviewSection from "../components/ReviewSection";
 import "../styles/pages/productDetail.css";
+
 
 function ProductDetail() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
+  const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
     async function fetchProduct() {
@@ -14,6 +18,10 @@ function ProductDetail() {
     }
     fetchProduct();
   }, [id]);
+
+  const handleAddReview = (review) => {
+    setReviews((prev) => [review, ...prev]);
+  };
 
   if (!product) return <p>Loading...</p>;
 
@@ -27,6 +35,7 @@ function ProductDetail() {
         <button>Add to Cart</button>
         <button>Buy Now</button>
       </div>
+      <ReviewSection reviews={reviews} onAddReview={handleAddReview} />
     </div>
   );
 }

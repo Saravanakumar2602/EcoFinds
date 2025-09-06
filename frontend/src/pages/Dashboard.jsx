@@ -1,16 +1,25 @@
 
+
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/pages/dashboard.css";
+
 
 
 function Dashboard() {
   const user = { name: "Eco User", email: "eco@example.com" }; // placeholder
+  const navigate = useNavigate();
 
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
         <div className="dashboard-title">Dashboard</div>
-        <div className="dashboard-user">
+        <div
+          className="dashboard-user"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/profile")}
+          title="View/Edit Profile"
+        >
           <img
             className="dashboard-avatar"
             src={`https://ui-avatars.com/api/?name=${encodeURIComponent(user.name)}&background=6366f1&color=fff&size=128`}
@@ -23,15 +32,15 @@ function Dashboard() {
         </div>
       </div>
       <div className="dashboard-cards">
-        <div className="dashboard-card">
+        <div className="dashboard-card" style={{ cursor: "pointer" }} onClick={() => navigate("/my-listings") }>
           <div className="dashboard-card-title">My Listings</div>
           <div className="dashboard-card-value">3</div>
         </div>
-        <div className="dashboard-card">
+        <div className="dashboard-card" style={{ cursor: "pointer" }} onClick={() => navigate("/purchases") }>
           <div className="dashboard-card-title">Purchases</div>
           <div className="dashboard-card-value">5</div>
         </div>
-        <div className="dashboard-card">
+        <div className="dashboard-card" style={{ cursor: "pointer" }} onClick={() => navigate("/cart") }>
           <div className="dashboard-card-title">Cart Items</div>
           <div className="dashboard-card-value">2</div>
         </div>

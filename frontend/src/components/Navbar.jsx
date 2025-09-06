@@ -27,6 +27,9 @@ function Navbar() {
             <Link to="/my-listings" className={location.pathname === "/my-listings" ? "active" : ""}>My Listings</Link>
           </li>
           <li>
+            <Link to="/wishlist" className={location.pathname === "/wishlist" ? "active" : ""}>Wishlist</Link>
+          </li>
+          <li>
             <Link to="/dashboard" className={location.pathname === "/dashboard" ? "active" : ""}>Dashboard</Link>
           </li>
           <li>
