@@ -1,0 +1,182 @@
+/* Home Page Styles for EcoFinds */
+
+.home-container {
+  max-width: 1200px;
+  margin: 2.5rem auto 0 auto;
+  padding: 1.5rem 1rem 2rem 1rem;
+  background: #f5f6fa;
+  min-height: 100vh;
+  animation: fadeIn 0.8s ease;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px 0 #e0e7ef;
+  padding: 1.2rem 1.5rem;
+  animation: fadeInDown 0.7s cubic-bezier(.39,.575,.565,1.000);
+}
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.home-logo img {
+  width: 48px;
+  height: 48px;
+  filter: drop-shadow(0 2px 8px #c7d2fe);
+}
+
+.home-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #22223b;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #e0e7ef;
+}
+
+@media (max-width: 600px) {
+  .home-title {
+    font-size: 1.3rem;
+  }
+  .home-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+.home-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.search-bar {
+  width: 220px;
+  padding: 0.5rem 1rem;
+  border: 1.5px solid #6366f1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8fafc;
+  box-shadow: 0 1px 6px 0 #e0e7ef44;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.search-bar:focus {
+  outline: none;
+  border: 1.5px solid #3b82f6;
+  box-shadow: 0 2px 12px 0 #6366f133;
+}
+
+.category-filter {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #6366f1;
+  background: #f8fafc;
+  font-size: 1rem;
+  color: #22223b;
+  box-shadow: 0 1px 6px 0 #e0e7ef44;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.category-filter:focus {
+  outline: none;
+  border: 1.5px solid #3b82f6;
+  box-shadow: 0 2px 12px 0 #6366f133;
+}
+
+.add-product-btn {
+  background: linear-gradient(135deg, #6366f1 60%, #3b82f6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 12px 0 #c7d2fe;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.add-product-btn:hover {
+  background: linear-gradient(135deg, #3b82f6 60%, #6366f1 100%);
+  box-shadow: 0 4px 20px 0 #6366f144;
+  transform: scale(1.08);
+}
+
+
+.product-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 #e0e7ef;
+  padding: 1rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 260px;
+  animation: fadeInUp 0.7s cubic-bezier(.39,.575,.565,1.000);
+}
+.product-card:hover {
+  box-shadow: 0 6px 32px 0 #6366f144;
+  transform: translateY(-4px) scale(1.03);
+}
+.product-card img {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 0 #e0e7ef44;
+  margin-bottom: 0.5rem;
+  background: #f5f6fa;
+}
+.product-card h3 {
+  color: #3b82f6;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.2rem 0;
+  text-align: center;
+}
+.product-card p {
+  color: #6366f1;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .product-feed {
+    grid-template-columns: 1fr;
+  }
+  .product-card {
+    min-height: 200px;
+    padding: 0.7rem;
+  }
+}
