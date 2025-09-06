@@ -38,9 +38,9 @@
   gap: 0.7rem;
 }
 .browse-logo {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  width: 70px;
+  height: 70px;
+  border-radius: 16px;
   box-shadow: 0 2px 8px #e0e7ef44;
   background: #eaf1eb;
 }

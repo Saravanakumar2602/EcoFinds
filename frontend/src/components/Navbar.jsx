@@ -8,6 +8,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-content">
         <div className="navbar-logo">
+          <img src="/ecofinds.png" alt="EcoFinds Logo" />
           <h2>EcoFinds</h2>
         </div>
         <ul className="navbar-links">

@@ -31,7 +31,7 @@ function Home() {
     <div className="home-container">
       <header className="home-header">
         <div className="home-logo">
-          <img src="/logo192.png" alt="EcoFinds Logo" />
+          <img src="/ecofinds.png" alt="EcoFinds Logo" />
           <span className="home-title">EcoFinds</span>
         </div>
         <div className="home-actions">

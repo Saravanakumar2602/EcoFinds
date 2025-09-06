@@ -58,7 +58,7 @@ function ProductFeed() {
       <div className="browse-header">
         <div className="browse-logo-title">
           <img
-            src="/logo192.png"
+            src="/ecofinds.png"
             alt="EcoFinds Logo"
             className="browse-logo"
           />

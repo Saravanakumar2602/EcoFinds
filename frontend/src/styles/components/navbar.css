@@ -24,6 +24,28 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  height: 56px;
+}
+
+.navbar-logo img {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #e0e7ef44;
+  background: #eaf1eb;
+  object-fit: contain;
+  margin-top: 2px;
+}
+.navbar-logo h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0 0 0 2px;
+  text-shadow: 0 2px 8px #c7d2fe;
+  line-height: 1;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-logo h2 {
