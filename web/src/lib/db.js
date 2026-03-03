@@ -1,9 +1,6 @@
 import { ObjectId } from 'mongodb';
 
 // IN-MEMORY DATABASE MOCK
-// I have completely removed the dependency on an external MongoDB database.
-// This allows you to immediately deploy to Vercel without configuring any databases!
-
 const store = {
     users: [],
     products: [
@@ -43,16 +40,19 @@ class Collection {
     }
 
     find(query = {}) {
-        return {
-            sort: () => this,
+        const listName = this.name;
+        // Cursor mock that correctly chains operations
+        const cursor = {
+            sort: () => cursor,
             toArray: async () => {
-                let res = store[this.name];
+                let res = store[listName];
                 if (query.user_email) res = res.filter(i => i.user_email === query.user_email);
                 if (query.owner_email) res = res.filter(i => i.owner_email === query.owner_email);
                 // Mock sorting by newest
                 return [...res].reverse();
             }
         };
+        return cursor;
     }
 
     async findOne(query) {
