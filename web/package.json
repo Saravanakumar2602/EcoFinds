@@ -1,0 +1,25 @@
+{
+    "name": "eco-finds-web",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "jose": "^5.9.6",
+        "jsonwebtoken": "^9.0.2",
+        "lucide-react": "^0.473.0",
+        "mongodb": "^6.12.0",
+        "next": "^15.1.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^9",
+        "eslint-config-next": "^15.1.0"
+    }
+}
