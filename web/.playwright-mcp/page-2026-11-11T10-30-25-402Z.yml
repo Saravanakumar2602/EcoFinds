@@ -1,0 +1,107 @@
+- generic [active] [ref=f13e1]:
+  - complementary "Announcement" [ref=f13e2]:
+    - generic [ref=f13e5]: Every order plants a native tree & supports verified zero-waste artisans. Enjoy carbon-neutral shipping nationwide.
+  - navigation [ref=f13e6]:
+    - generic [ref=f13e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f13e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f13e13]:
+          - text: EcoFinds
+          - generic [ref=f13e14]: Conscious Marketplace
+      - textbox "Search organic, upcycled, zero-waste..." [ref=f13e19]
+      - generic [ref=f13e20]:
+        - link "Marketplace" [ref=f13e21] [cursor=pointer]:
+          - /url: /products
+        - link "Sell" [ref=f13e22] [cursor=pointer]:
+          - /url: /add-product
+        - link "My Listings" [ref=f13e26] [cursor=pointer]:
+          - /url: /my-listings
+        - link "Cart" [ref=f13e27] [cursor=pointer]:
+          - /url: /cart
+        - link "Jordan Lee Jordan" [ref=f13e32] [cursor=pointer]:
+          - /url: /profile
+          - img "Jordan Lee" [ref=f13e33]
+          - generic [ref=f13e34]: Jordan
+  - main [ref=f13e35]:
+    - generic [ref=f13e36]:
+      - generic [ref=f13e37]:
+        - heading "Welcome to EcoFinds" [level=1] [ref=f13e42]
+        - paragraph [ref=f13e43]: Log in to continue your mindful shopping journey.
+      - generic [ref=f13e44]:
+        - generic [ref=f13e45]: Instant Demo Accounts (One-Click)
+        - paragraph [ref=f13e49]: "Select a preset role to test the platform immediately:"
+        - generic [ref=f13e50]:
+          - button "👤 Jordan Lee (Buyer)" [ref=f13e52] [cursor=pointer]
+          - button "🌿 Elena Rostova (Artisan Maker)" [ref=f13e54] [cursor=pointer]
+      - generic [ref=f13e55]:
+        - generic [ref=f13e56]:
+          - generic [ref=f13e57]: Email Address
+          - textbox "you@example.com" [ref=f13e62]
+        - generic [ref=f13e63]:
+          - generic [ref=f13e64]:
+            - generic [ref=f13e65]: Password
+            - generic [ref=f13e66]: "Demo: password123"
+          - textbox "••••••••" [ref=f13e71]
+        - button "Log In to EcoFinds" [ref=f13e72] [cursor=pointer]
+        - generic [ref=f13e75]:
+          - text: New to EcoFinds?
+          - link "Create an account" [ref=f13e76] [cursor=pointer]:
+            - /url: /signup?redirect=%2Fproducts
+  - contentinfo [ref=f13e77]:
+    - generic [ref=f13e78]:
+      - generic [ref=f13e79]:
+        - generic [ref=f13e80]:
+          - heading "EcoFinds" [level=3] [ref=f13e81]
+          - paragraph [ref=f13e82]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f13e83]:
+            - generic [ref=f13e84]: 🌱 100% Carbon Offset
+            - generic [ref=f13e85]: 📦 Zero Plastic Mailers
+        - generic [ref=f13e86]:
+          - heading "Marketplace" [level=4] [ref=f13e87]
+          - list [ref=f13e88]:
+            - listitem [ref=f13e89]:
+              - link "Kitchen & Dining" [ref=f13e90] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f13e91]:
+              - link "Botanical Care" [ref=f13e92] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f13e93]:
+              - link "Home & Living" [ref=f13e94] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f13e95]:
+              - link "Upcycled Bags" [ref=f13e96] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f13e97]:
+              - link "Fair-Trade Pantry" [ref=f13e98] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f13e99]:
+          - heading "Community" [level=4] [ref=f13e100]
+          - list [ref=f13e101]:
+            - listitem [ref=f13e102]:
+              - link "Sell Your Creations" [ref=f13e103] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f13e104]:
+              - link "My Orders & Impact" [ref=f13e105] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f13e106]:
+              - link "Upcycled Collection" [ref=f13e107] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f13e108]:
+              - link "Zero Waste Essentials" [ref=f13e109] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f13e110]:
+          - heading "EcoFinds Promise" [level=4] [ref=f13e111]
+          - paragraph [ref=f13e112]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f13e113]:
+            - text: 💚
+            - strong [ref=f13e114]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f13e115]:
+        - generic [ref=f13e116]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f13e117]:
+          - link "Browse All" [ref=f13e118] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f13e119] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f13e120] [cursor=pointer]:
+            - /url: /profile

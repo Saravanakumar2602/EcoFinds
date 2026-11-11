@@ -1,0 +1,139 @@
+- generic [active] [ref=f43e1]:
+  - complementary "Announcement" [ref=f43e2]:
+    - generic [ref=f43e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f43e6]:
+    - generic [ref=f43e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f43e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f43e13]:
+          - generic [ref=f43e14]: EcoFinds
+          - generic [ref=f43e15]: Conscious Marketplace
+      - generic [ref=f43e16]:
+        - link "View Cart" [ref=f43e17] [cursor=pointer]:
+          - /url: /cart
+        - button "Open menu" [ref=f43e21] [cursor=pointer]
+  - main [ref=f43e23]:
+    - generic [ref=f43e25]:
+      - generic [ref=f43e26]:
+        - link "Back to My Listings" [ref=f43e27] [cursor=pointer]:
+          - /url: /my-listings
+        - generic [ref=f43e30]: Artisan Submission
+        - heading "Publish a Sustainable Creation" [level=1] [ref=f43e34]
+        - paragraph [ref=f43e35]: List your handcrafted, upcycled, or zero-waste product in the EcoFinds marketplace.
+      - generic [ref=f43e36]:
+        - generic [ref=f43e37]:
+          - generic [ref=f43e38]: Product Name / Title *
+          - textbox "e.g. Handwoven Hemp & Cotton Table Runner" [ref=f43e39]
+        - generic [ref=f43e40]:
+          - generic [ref=f43e41]:
+            - generic [ref=f43e42]: Category *
+            - combobox [ref=f43e43]:
+              - option "Kitchen & Dining" [selected]
+              - option "Personal Care"
+              - option "Home & Living"
+              - option "Fashion & Bags"
+              - option "Food & Pantry"
+          - generic [ref=f43e44]:
+            - generic [ref=f43e45]: Condition *
+            - combobox [ref=f43e46]:
+              - option "Brand New" [selected]
+              - option "Upcycled Handcrafted"
+              - option "Handwoven Heirloom"
+              - option "Refurbished Vintage"
+        - generic [ref=f43e47]:
+          - generic [ref=f43e48]:
+            - generic [ref=f43e49]: Selling Price ($) *
+            - spinbutton "28.50" [ref=f43e50]
+          - generic [ref=f43e51]:
+            - generic [ref=f43e52]: Compare-At Price ($)
+            - spinbutton "36.00" [ref=f43e53]
+          - generic [ref=f43e54]:
+            - generic [ref=f43e55]: Available Stock *
+            - spinbutton [ref=f43e56]: "20"
+        - generic [ref=f43e57]:
+          - generic [ref=f43e58]:
+            - generic [ref=f43e59]: Primary Eco-Badge *
+            - combobox [ref=f43e60]:
+              - option "Zero Waste" [selected]
+              - option "Certified Organic"
+              - option "Upcycled"
+              - option "Plastic-Free"
+              - option "100% Compostable"
+              - option "Fair Trade"
+              - option "Non-Toxic"
+          - generic [ref=f43e61]:
+            - generic [ref=f43e62]: Estimated CO₂ Saved (kg)
+            - spinbutton [ref=f43e63]: "2.4"
+        - generic [ref=f43e64]:
+          - generic [ref=f43e65]: Materials & Ingredients *
+          - textbox "e.g. 100% Organic Raw Flax Linen & Natural Plant Dyes" [ref=f43e66]
+        - generic [ref=f43e67]:
+          - generic [ref=f43e68]: Product Photography Image URL *
+          - textbox [ref=f43e69]: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80
+          - generic [ref=f43e70]: Paste any high-resolution image URL (Unsplash, Imgur, Cloudinary, etc.)
+        - generic [ref=f43e71]:
+          - generic [ref=f43e72]: Artisan Story & Detailed Description *
+          - textbox "Detail the craftsmanship, sustainability footprint, packaging details, and care instructions..." [ref=f43e73]
+        - generic [ref=f43e74]: By submitting, you affirm that this item complies with EcoFinds zero-plastic packaging guidelines and ethical labor standards.
+        - generic [ref=f43e79]:
+          - button "Publish Live to Marketplace" [ref=f43e80] [cursor=pointer]
+          - link "Cancel" [ref=f43e83] [cursor=pointer]:
+            - /url: /my-listings
+  - contentinfo [ref=f43e84]:
+    - generic [ref=f43e85]:
+      - generic [ref=f43e86]:
+        - generic [ref=f43e87]:
+          - heading "EcoFinds" [level=3] [ref=f43e88]
+          - paragraph [ref=f43e89]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f43e90]:
+            - generic [ref=f43e91]: 🌱 100% Carbon Offset
+            - generic [ref=f43e92]: 📦 Zero Plastic Mailers
+        - generic [ref=f43e93]:
+          - heading "Marketplace" [level=4] [ref=f43e94]
+          - list [ref=f43e95]:
+            - listitem [ref=f43e96]:
+              - link "Kitchen & Dining" [ref=f43e97] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f43e98]:
+              - link "Botanical Care" [ref=f43e99] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f43e100]:
+              - link "Home & Living" [ref=f43e101] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f43e102]:
+              - link "Upcycled Bags" [ref=f43e103] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f43e104]:
+              - link "Fair-Trade Pantry" [ref=f43e105] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f43e106]:
+          - heading "Community" [level=4] [ref=f43e107]
+          - list [ref=f43e108]:
+            - listitem [ref=f43e109]:
+              - link "Sell Your Creations" [ref=f43e110] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f43e111]:
+              - link "My Orders & Impact" [ref=f43e112] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f43e113]:
+              - link "Upcycled Collection" [ref=f43e114] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f43e115]:
+              - link "Zero Waste Essentials" [ref=f43e116] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f43e117]:
+          - heading "EcoFinds Promise" [level=4] [ref=f43e118]
+          - paragraph [ref=f43e119]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f43e120]:
+            - text: 💚
+            - strong [ref=f43e121]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f43e122]:
+        - generic [ref=f43e123]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f43e124]:
+          - link "Browse All" [ref=f43e125] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f43e126] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f43e127] [cursor=pointer]:
+            - /url: /profile

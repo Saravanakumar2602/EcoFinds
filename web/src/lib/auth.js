@@ -1,8 +1,9 @@
 import bcrypt from "bcryptjs";
 import { SignJWT, jwtVerify } from "jose";
 import { cookies } from "next/headers";
+import { getUserByEmail } from "./db";
 
-const JWT_SECRET = process.env.JWT_SECRET || "supersecretkey";
+const JWT_SECRET = process.env.JWT_SECRET || "ecofinds_super_secret_jwt_key_2026_prod";
 const key = new TextEncoder().encode(JWT_SECRET);
 
 export async function hashPassword(password) {
@@ -16,7 +17,7 @@ export async function verifyPassword(password, hash) {
 export async function makeToken(email) {
     return await new SignJWT({ sub: email })
         .setProtectedHeader({ alg: "HS256" })
-        .setExpirationTime("24h")
+        .setExpirationTime("7d")
         .sign(key);
 }
 
@@ -24,7 +25,7 @@ export async function verifyToken(token) {
     try {
         const { payload } = await jwtVerify(token, key);
         return payload;
-    } catch (error) {
+    } catch {
         return null;
     }
 }
@@ -36,4 +37,10 @@ export async function getAuthEmail() {
 
     const payload = await verifyToken(token);
     return payload?.sub || null;
+}
+
+export async function getAuthUser() {
+    const email = await getAuthEmail();
+    if (!email) return null;
+    return getUserByEmail(email);
 }

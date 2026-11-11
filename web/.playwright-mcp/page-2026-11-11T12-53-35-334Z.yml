@@ -1,0 +1,135 @@
+- generic [active] [ref=f41e1]:
+  - complementary "Announcement" [ref=f41e2]:
+    - generic [ref=f41e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f41e6]:
+    - generic [ref=f41e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f41e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f41e13]:
+          - generic [ref=f41e14]: EcoFinds
+          - generic [ref=f41e15]: Conscious Marketplace
+      - generic [ref=f41e16]:
+        - link "View Cart" [ref=f41e17] [cursor=pointer]:
+          - /url: /cart
+        - button "Open menu" [ref=f41e21] [cursor=pointer]
+  - main [ref=f41e23]:
+    - generic [ref=f41e25]:
+      - generic [ref=f41e26]:
+        - generic [ref=f41e27]:
+          - generic [ref=f41e28]:
+            - img "Elena Rostova" [ref=f41e29]
+            - generic [ref=f41e30]:
+              - generic [ref=f41e31]:
+                - heading "Elena Rostova" [level=1] [ref=f41e32]
+                - generic [ref=f41e33]: Verified Artisan
+              - generic [ref=f41e34]: artisan@ecofinds.com
+              - paragraph [ref=f41e35]: Artisan botanist & sustainable crafts designer with 8+ years creating low-waste lifestyle goods.
+          - generic [ref=f41e36]:
+            - link "Sell Product" [ref=f41e37] [cursor=pointer]:
+              - /url: /add-product
+            - link "Sign Out" [ref=f41e40] [cursor=pointer]:
+              - /url: /api/auth/logout
+        - generic [ref=f41e44]:
+          - generic [ref=f41e45]:
+            - generic [ref=f41e46]: Carbon Saved
+            - generic [ref=f41e50]: 3 kg
+            - generic [ref=f41e51]: CO₂ avoided
+          - generic [ref=f41e52]:
+            - generic [ref=f41e53]: Trees Planted
+            - generic [ref=f41e56]: "3"
+            - generic [ref=f41e57]: Via Eden Projects
+          - generic [ref=f41e58]:
+            - generic [ref=f41e59]: Total Orders
+            - generic [ref=f41e64]: "1"
+            - generic [ref=f41e65]: $14.00 spent
+          - generic [ref=f41e66]:
+            - generic [ref=f41e67]: Listings
+            - generic [ref=f41e71]: "10"
+            - link "Studio" [ref=f41e73] [cursor=pointer]:
+              - /url: /my-listings
+      - generic [ref=f41e74]:
+        - generic [ref=f41e75]:
+          - generic [ref=f41e76]:
+            - generic [ref=f41e77]: Lifetime Transactions
+            - heading "Order History (1)" [level=2] [ref=f41e82]
+          - link "Continue Shopping" [ref=f41e83] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=f41e85]:
+          - generic [ref=f41e86]:
+            - generic [ref=f41e87]:
+              - generic [ref=f41e88]: "Order #ECO-3829-9213"
+              - generic [ref=f41e89]: Placed on 11 Nov 2026
+            - generic [ref=f41e90]:
+              - generic [ref=f41e91]: Confirmed
+              - generic [ref=f41e95]: $14.00
+          - generic [ref=f41e97]:
+            - generic [ref=f41e98]:
+              - img "Cold-Pressed Botanical Soap Trio (Lavender, Oat & Clay)" [ref=f41e99]
+              - generic [ref=f41e100]:
+                - text: Cold-Pressed Botanical Soap Trio (Lavender, Oat & Clay)
+                - generic [ref=f41e101]: × 1
+            - generic [ref=f41e102]: $14.00
+          - generic [ref=f41e103]:
+            - generic [ref=f41e104]:
+              - text: "Tracking:"
+              - strong [ref=f41e105]: TRK-UK9U9CQ
+              - text: "• Shipped to: Portland"
+            - generic [ref=f41e106]: 🌱 -3kg CO₂ Offset
+  - contentinfo [ref=f41e107]:
+    - generic [ref=f41e108]:
+      - generic [ref=f41e109]:
+        - generic [ref=f41e110]:
+          - heading "EcoFinds" [level=3] [ref=f41e111]
+          - paragraph [ref=f41e112]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f41e113]:
+            - generic [ref=f41e114]: 🌱 100% Carbon Offset
+            - generic [ref=f41e115]: 📦 Zero Plastic Mailers
+        - generic [ref=f41e116]:
+          - heading "Marketplace" [level=4] [ref=f41e117]
+          - list [ref=f41e118]:
+            - listitem [ref=f41e119]:
+              - link "Kitchen & Dining" [ref=f41e120] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f41e121]:
+              - link "Botanical Care" [ref=f41e122] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f41e123]:
+              - link "Home & Living" [ref=f41e124] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f41e125]:
+              - link "Upcycled Bags" [ref=f41e126] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f41e127]:
+              - link "Fair-Trade Pantry" [ref=f41e128] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f41e129]:
+          - heading "Community" [level=4] [ref=f41e130]
+          - list [ref=f41e131]:
+            - listitem [ref=f41e132]:
+              - link "Sell Your Creations" [ref=f41e133] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f41e134]:
+              - link "My Orders & Impact" [ref=f41e135] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f41e136]:
+              - link "Upcycled Collection" [ref=f41e137] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f41e138]:
+              - link "Zero Waste Essentials" [ref=f41e139] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f41e140]:
+          - heading "EcoFinds Promise" [level=4] [ref=f41e141]
+          - paragraph [ref=f41e142]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f41e143]:
+            - text: 💚
+            - strong [ref=f41e144]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f41e145]:
+        - generic [ref=f41e146]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f41e147]:
+          - link "Browse All" [ref=f41e148] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f41e149] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f41e150] [cursor=pointer]:
+            - /url: /profile

@@ -1,23 +1,25 @@
 import { NextResponse } from 'next/server';
-import { getDb } from '@/lib/db';
-import { getAuthEmail } from '@/lib/auth';
-import { ObjectId } from 'mongodb';
+import { addToCart } from '@/lib/db';
+import { getAuthUser } from '@/lib/auth';
 
 export async function GET(request) {
-    const email = await getAuthEmail();
-    if (!email) return NextResponse.redirect(new URL('/login', request.url));
+    const user = await getAuthUser();
+    if (!user) {
+        const loginUrl = new URL('/login', request.url);
+        loginUrl.searchParams.set('redirect', '/cart');
+        return NextResponse.redirect(loginUrl);
+    }
 
     const { searchParams } = new URL(request.url);
     const productId = searchParams.get('id');
+    const quantity = parseInt(searchParams.get('qty') || '1', 10);
 
     if (productId) {
-        const db = await getDb();
         try {
-            const prod = await db.collection("products").findOne({ _id: new ObjectId(productId) });
-            if (prod) {
-                await db.collection("carts").insertOne({ user_email: email, product_id: prod._id });
-            }
-        } catch (e) { }
+            addToCart(user.email, Number(productId), quantity);
+        } catch (e) {
+            console.error('Error adding to cart:', e);
+        }
     }
 
     return NextResponse.redirect(new URL('/cart', request.url));

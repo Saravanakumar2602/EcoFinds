@@ -1,20 +1,22 @@
 import { NextResponse } from 'next/server';
-import { getDb } from '@/lib/db';
-import { getAuthEmail } from '@/lib/auth';
-import { ObjectId } from 'mongodb';
+import { removeFromCart } from '@/lib/db';
+import { getAuthUser } from '@/lib/auth';
 
 export async function GET(request) {
-    const email = await getAuthEmail();
-    if (!email) return NextResponse.redirect(new URL('/login', request.url));
+    const user = await getAuthUser();
+    if (!user) {
+        return NextResponse.redirect(new URL('/login', request.url));
+    }
 
     const { searchParams } = new URL(request.url);
     const cartId = searchParams.get('cart_id');
 
     if (cartId) {
-        const db = await getDb();
         try {
-            await db.collection("carts").deleteOne({ _id: new ObjectId(cartId), user_email: email });
-        } catch (e) { }
+            removeFromCart(Number(cartId), user.email);
+        } catch (e) {
+            console.error('Error removing from cart:', e);
+        }
     }
 
     return NextResponse.redirect(new URL('/cart', request.url));

@@ -1,0 +1,273 @@
+- generic [active] [ref=f33e1]:
+  - complementary "Announcement" [ref=f33e2]:
+    - generic [ref=f33e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f33e6]:
+    - generic [ref=f33e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f33e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f33e13]:
+          - generic [ref=f33e14]: EcoFinds
+          - generic [ref=f33e15]: Conscious Marketplace
+      - generic [ref=f33e16]:
+        - link "View Cart" [ref=f33e17] [cursor=pointer]:
+          - /url: /cart
+        - button "Open menu" [ref=f33e21] [cursor=pointer]
+  - main [ref=f33e23]:
+    - generic [ref=f33e25]:
+      - generic [ref=f33e27]:
+        - generic [ref=f33e28]:
+          - generic [ref=f33e29]: Conscious Living, Refined
+          - heading "Thoughtfully made goods for a lighter footprint." [level=1] [ref=f33e33]
+          - paragraph [ref=f33e34]: Shop handcrafted home essentials, zero-waste kitchenware, and pure botanical apothecary—direct from verified independent artisans dedicated to a circular earth.
+          - generic [ref=f33e35]:
+            - link "Explore Marketplace" [ref=f33e36] [cursor=pointer]:
+              - /url: /products
+            - link "Sell Your Crafts" [ref=f33e39] [cursor=pointer]:
+              - /url: /add-product
+          - generic [ref=f33e40]:
+            - generic [ref=f33e41]: 100% Plastic-Free Mailers
+            - generic [ref=f33e48]: 1 Tree Planted per Order
+            - generic [ref=f33e52]: Vetted Artisan Goods
+        - generic [ref=f33e58]:
+          - generic [ref=f33e59]:
+            - img "Upcycled Sailcloth Market Tote" [ref=f33e60]
+            - generic [ref=f33e61]: 🌿 Artisan Spotlight
+            - generic [ref=f33e63]: "-5.6 kg CO₂ Diverted"
+          - generic [ref=f33e64]:
+            - generic [ref=f33e65]:
+              - generic [ref=f33e66]:
+                - generic [ref=f33e67]: Upcycled Ocean Gear
+                - heading "Upcycled Sailcloth Everyday Market Tote" [level=3] [ref=f33e68]
+              - generic [ref=f33e69]:
+                - generic [ref=f33e70]: $44.00
+                - generic [ref=f33e71]: $58.00
+            - paragraph [ref=f33e72]: Handcrafted by Elena Rostova from retired competitive racing sails and yachting cordage. Built for lifetime durability.
+            - generic [ref=f33e73]:
+              - generic [ref=f33e74]:
+                - img "Elena Rostova" [ref=f33e75]
+                - generic [ref=f33e76]:
+                  - generic [ref=f33e77]: Elena Rostova
+                  - generic [ref=f33e78]: Pacific Coast Artisan
+              - link "View Details" [ref=f33e79] [cursor=pointer]:
+                - /url: /products/3
+      - generic [ref=f33e81]:
+        - generic [ref=f33e82]:
+          - generic [ref=f33e83]: 12,480 kg
+          - generic [ref=f33e84]: CO₂ Footprint Offset
+          - generic [ref=f33e85]: Across verified shipments
+        - generic [ref=f33e86]:
+          - generic [ref=f33e87]: 18,900+
+          - generic [ref=f33e88]: Single-Use Plastics Replaced
+          - generic [ref=f33e89]: Via reusable lifestyle swaps
+        - generic [ref=f33e90]:
+          - generic [ref=f33e91]: 3,140
+          - generic [ref=f33e92]: Native Trees Planted
+          - generic [ref=f33e93]: Partnered with Eden Reforestation
+        - generic [ref=f33e94]:
+          - generic [ref=f33e95]: 100%
+          - generic [ref=f33e96]: Circular Packaging
+          - generic [ref=f33e97]: Cornstarch & water-activated tape
+      - generic [ref=f33e98]:
+        - generic [ref=f33e99]:
+          - generic [ref=f33e100]:
+            - generic [ref=f33e101]: Curated Departments
+            - heading "Explore Sustainable Living" [level=2] [ref=f33e106]
+          - link "View All Categories" [ref=f33e107] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=f33e110]:
+          - link [ref=f33e111] [cursor=pointer]:
+            - /url: /products?category=Kitchen%20%26%20Dining
+            - img "Kitchen & Dining" [ref=f33e112]
+            - generic [ref=f33e113]:
+              - text: 3 items
+              - heading "Kitchen & Dining" [level=3] [ref=f33e114]
+              - paragraph [ref=f33e115]: Zero-Waste Cookware & Utensils
+          - link [ref=f33e116] [cursor=pointer]:
+            - /url: /products?category=Personal%20Care
+            - img "Personal Care" [ref=f33e117]
+            - generic [ref=f33e118]:
+              - text: 3 items
+              - heading "Personal Care" [level=3] [ref=f33e119]
+              - paragraph [ref=f33e120]: Cold-Pressed & Solid Apothecary
+          - link [ref=f33e121] [cursor=pointer]:
+            - /url: /products?category=Home%20%26%20Living
+            - img "Home & Living" [ref=f33e122]
+            - generic [ref=f33e123]:
+              - text: 4 items
+              - heading "Home & Living" [level=3] [ref=f33e124]
+              - paragraph [ref=f33e125]: Pure Beeswax & Recycled Glass
+          - link [ref=f33e126] [cursor=pointer]:
+            - /url: /products?category=Fashion%20%26%20Bags
+            - img "Fashion & Bags" [ref=f33e127]
+            - generic [ref=f33e128]:
+              - text: 2 items
+              - heading "Fashion & Bags" [level=3] [ref=f33e129]
+              - paragraph [ref=f33e130]: Upcycled Sailcloth & Linens
+          - link [ref=f33e131] [cursor=pointer]:
+            - /url: /products?category=Food%20%26%20Pantry
+            - img "Food & Pantry" [ref=f33e132]
+            - generic [ref=f33e133]:
+              - text: 1 item
+              - heading "Food & Pantry" [level=3] [ref=f33e134]
+              - paragraph [ref=f33e135]: Fair-Trade Shade Coffee
+      - generic [ref=f33e136]:
+        - generic [ref=f33e137]:
+          - generic [ref=f33e138]:
+            - generic [ref=f33e139]: Community Favorites
+            - heading "Featured Artisan Pieces" [level=2] [ref=f33e144]
+          - link "View Marketplace (4+ items)" [ref=f33e145] [cursor=pointer]:
+            - /url: /products
+        - generic [ref=f33e146]:
+          - generic [ref=f33e147]:
+            - generic [ref=f33e148]:
+              - link [ref=f33e149] [cursor=pointer]:
+                - /url: /products/13
+                - img "Organic Wild Lavender & Shea Herbal Balm" [ref=f33e150]
+              - generic [ref=f33e151]:
+                - generic [ref=f33e152]: Zero Waste
+                - generic [ref=f33e153]: 🌱 -2.4kg CO₂
+            - generic [ref=f33e154]:
+              - generic [ref=f33e155]: Personal Care
+              - heading [level=3] [ref=f33e156]:
+                - link "Organic Wild Lavender & Shea Herbal Balm" [ref=f33e157] [cursor=pointer]:
+                  - /url: /products/13
+              - paragraph [ref=f33e158]: A multipurpose soothing balm formulated with slow-infused solar macerated organic lavender blooms and unrefined shea butter. Nourishes dry hands, cuticles, and chapped lips with zero synthetic preservatives. Comes in a recyclable aluminum slider tin.
+              - generic [ref=f33e159]:
+                - generic [ref=f33e160]:
+                  - generic [ref=f33e161]: $16.50
+                  - generic [ref=f33e162]: $22.00
+                - link "View Details" [ref=f33e163] [cursor=pointer]:
+                  - /url: /products/13
+          - generic [ref=f33e164]:
+            - generic [ref=f33e165]:
+              - link [ref=f33e166] [cursor=pointer]:
+                - /url: /products/12
+                - img "Handwoven Natural Jute & Recycled Chindi Floor Runner (2x6 ft)" [ref=f33e167]
+              - generic [ref=f33e168]:
+                - generic [ref=f33e169]: Fair Trade Handwoven
+                - generic [ref=f33e170]: 🌱 -6.2kg CO₂
+            - generic [ref=f33e171]:
+              - generic [ref=f33e172]: Home & Living
+              - heading [level=3] [ref=f33e173]:
+                - link "Handwoven Natural Jute & Recycled Chindi Floor Runner (2x6 ft)" [ref=f33e174] [cursor=pointer]:
+                  - /url: /products/12
+              - paragraph [ref=f33e175]: Artisan-loomed by rural women's weaving collectives using fast-growing golden jute and upcycled discarded cotton sari selvage. Reversible, naturally textured, and adds warm boho charm to hallways, kitchens, or entryways while preventing textile scrap from landfills.
+              - generic [ref=f33e176]:
+                - generic [ref=f33e177]:
+                  - generic [ref=f33e178]: $52.00
+                  - generic [ref=f33e179]: $68.00
+                - link "View Details" [ref=f33e180] [cursor=pointer]:
+                  - /url: /products/12
+          - generic [ref=f33e181]:
+            - generic [ref=f33e182]:
+              - link [ref=f33e183] [cursor=pointer]:
+                - /url: /products/11
+                - img "Fair-Trade Shade-Grown Organic Coffee Beans (1kg Bag)" [ref=f33e184]
+              - generic [ref=f33e185]:
+                - generic [ref=f33e186]: Fair Trade
+                - generic [ref=f33e187]: 🌱 -3.7kg CO₂
+            - generic [ref=f33e188]:
+              - generic [ref=f33e189]: Food & Pantry
+              - heading [level=3] [ref=f33e190]:
+                - link "Fair-Trade Shade-Grown Organic Coffee Beans (1kg Bag)" [ref=f33e191] [cursor=pointer]:
+                  - /url: /products/11
+              - paragraph [ref=f33e192]: Direct-trade micro-lot beans cultivated under high-canopy cloud forests in Oaxaca, Mexico. Grown alongside native shade trees that preserve migratory bird habitats. Delivers velvety tasting notes of dark chocolate, toasted hazelnut, and sweet brown sugar. Shipped in 100% home-compostable valve bags.
+              - generic [ref=f33e193]:
+                - generic [ref=f33e194]:
+                  - generic [ref=f33e195]: $24.00
+                  - generic [ref=f33e196]: $29.00
+                - link "View Details" [ref=f33e197] [cursor=pointer]:
+                  - /url: /products/11
+          - generic [ref=f33e198]:
+            - generic [ref=f33e199]:
+              - link [ref=f33e200] [cursor=pointer]:
+                - /url: /products/10
+                - img "Solid Concentrated Shampoo & Conditioner Bar Set (Mint & Rosemary)" [ref=f33e201]
+              - generic [ref=f33e202]:
+                - generic [ref=f33e203]: Plastic-Free
+                - generic [ref=f33e204]: 🌱 -2.1kg CO₂
+            - generic [ref=f33e205]:
+              - generic [ref=f33e206]: Personal Care
+              - heading [level=3] [ref=f33e207]:
+                - link "Solid Concentrated Shampoo & Conditioner Bar Set (Mint & Rosemary)" [ref=f33e208] [cursor=pointer]:
+                  - /url: /products/10
+              - paragraph [ref=f33e209]: Equal to three plastic shampoo bottles per bar. Hand-pressed with invigorating peppermint essential oil, French green clay, and rosemary extract to stimulate follicles and balance scalp oils. pH-balanced, vegan, and packaged in a rust-proof aluminum travel tin.
+              - generic [ref=f33e210]:
+                - generic [ref=f33e211]:
+                  - generic [ref=f33e212]: $19.50
+                  - generic [ref=f33e213]: $25.00
+                - link "View Details" [ref=f33e214] [cursor=pointer]:
+                  - /url: /products/10
+      - generic [ref=f33e216]:
+        - generic [ref=f33e217]:
+          - img "Artisan Elena Rostova in her workshop" [ref=f33e218]
+          - generic [ref=f33e219]:
+            - generic [ref=f33e220]: Elena Rostova
+            - generic [ref=f33e221]: Founder, Wildroot Botánica
+        - generic [ref=f33e222]:
+          - generic [ref=f33e223]: Behind the Craft
+          - heading "\"True sustainability is making things so durable you only ever need one.\"" [level=2] [ref=f33e230]
+          - paragraph [ref=f33e231]: Elena sources discarded yacht sails, fallen cedar from storm cleanup, and wild-harvested botanicals to handcraft zero-waste daily staples. Every item on EcoFinds is verified for origin, fair-labor compensation, and end-of-life biodegradability.
+          - generic [ref=f33e232]:
+            - link "Shop Elena's Collection" [ref=f33e233] [cursor=pointer]:
+              - /url: /products?owner=artisan%40ecofinds.com
+            - link "Become a Maker" [ref=f33e234] [cursor=pointer]:
+              - /url: /add-product
+  - contentinfo [ref=f33e235]:
+    - generic [ref=f33e236]:
+      - generic [ref=f33e237]:
+        - generic [ref=f33e238]:
+          - heading "EcoFinds" [level=3] [ref=f33e239]
+          - paragraph [ref=f33e240]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f33e241]:
+            - generic [ref=f33e242]: 🌱 100% Carbon Offset
+            - generic [ref=f33e243]: 📦 Zero Plastic Mailers
+        - generic [ref=f33e244]:
+          - heading "Marketplace" [level=4] [ref=f33e245]
+          - list [ref=f33e246]:
+            - listitem [ref=f33e247]:
+              - link "Kitchen & Dining" [ref=f33e248] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f33e249]:
+              - link "Botanical Care" [ref=f33e250] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f33e251]:
+              - link "Home & Living" [ref=f33e252] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f33e253]:
+              - link "Upcycled Bags" [ref=f33e254] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f33e255]:
+              - link "Fair-Trade Pantry" [ref=f33e256] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f33e257]:
+          - heading "Community" [level=4] [ref=f33e258]
+          - list [ref=f33e259]:
+            - listitem [ref=f33e260]:
+              - link "Sell Your Creations" [ref=f33e261] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f33e262]:
+              - link "My Orders & Impact" [ref=f33e263] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f33e264]:
+              - link "Upcycled Collection" [ref=f33e265] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f33e266]:
+              - link "Zero Waste Essentials" [ref=f33e267] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f33e268]:
+          - heading "EcoFinds Promise" [level=4] [ref=f33e269]
+          - paragraph [ref=f33e270]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f33e271]:
+            - text: 💚
+            - strong [ref=f33e272]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f33e273]:
+        - generic [ref=f33e274]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f33e275]:
+          - link "Browse All" [ref=f33e276] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f33e277] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f33e278] [cursor=pointer]:
+            - /url: /profile

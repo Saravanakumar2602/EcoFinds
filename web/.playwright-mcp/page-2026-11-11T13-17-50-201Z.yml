@@ -1,0 +1,88 @@
+- generic [active] [ref=f6e1]:
+  - complementary "Announcement" [ref=f6e2]:
+    - generic [ref=f6e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f6e6]:
+    - generic [ref=f6e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f6e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f6e13]:
+          - generic [ref=f6e14]: EcoFinds
+          - generic [ref=f6e15]: Conscious Marketplace
+      - generic [ref=f6e16]:
+        - link "View Cart" [ref=f6e17] [cursor=pointer]:
+          - /url: /cart
+        - button "Open menu" [ref=f6e21] [cursor=pointer]
+  - main [ref=f6e23]:
+    - generic [ref=f6e25]:
+      - generic [ref=f6e26]:
+        - generic [ref=f6e27]:
+          - generic [ref=f6e28]: Artisan & Maker Studio
+          - heading "My Listed Products" [level=1] [ref=f6e32]
+          - paragraph [ref=f6e33]: Manage your handcrafted sustainable inventory and monitor stock levels.
+        - link "List New Item" [ref=f6e34] [cursor=pointer]:
+          - /url: /add-product
+      - generic [ref=f6e37]:
+        - heading "You have not published any items yet" [level=3] [ref=f6e43]
+        - paragraph [ref=f6e44]: Start offering your upcycled crafts, organic textiles, or zero-waste creations to our community.
+        - link "Publish Your First Product" [ref=f6e45] [cursor=pointer]:
+          - /url: /add-product
+  - contentinfo [ref=f6e48]:
+    - generic [ref=f6e49]:
+      - generic [ref=f6e50]:
+        - generic [ref=f6e51]:
+          - heading "EcoFinds" [level=3] [ref=f6e52]
+          - paragraph [ref=f6e53]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f6e54]:
+            - generic [ref=f6e55]: 🌱 100% Carbon Offset
+            - generic [ref=f6e56]: 📦 Zero Plastic Mailers
+        - generic [ref=f6e57]:
+          - heading "Marketplace" [level=4] [ref=f6e58]
+          - list [ref=f6e59]:
+            - listitem [ref=f6e60]:
+              - link "Kitchen & Dining" [ref=f6e61] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f6e62]:
+              - link "Botanical Care" [ref=f6e63] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f6e64]:
+              - link "Home & Living" [ref=f6e65] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f6e66]:
+              - link "Upcycled Bags" [ref=f6e67] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f6e68]:
+              - link "Fair-Trade Pantry" [ref=f6e69] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f6e70]:
+          - heading "Community" [level=4] [ref=f6e71]
+          - list [ref=f6e72]:
+            - listitem [ref=f6e73]:
+              - link "Sell Your Creations" [ref=f6e74] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f6e75]:
+              - link "My Orders & Impact" [ref=f6e76] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f6e77]:
+              - link "Upcycled Collection" [ref=f6e78] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f6e79]:
+              - link "Zero Waste Essentials" [ref=f6e80] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f6e81]:
+          - heading "EcoFinds Promise" [level=4] [ref=f6e82]
+          - paragraph [ref=f6e83]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f6e84]:
+            - text: 💚
+            - strong [ref=f6e85]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f6e86]:
+        - generic [ref=f6e87]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f6e88]:
+          - link "Browse All" [ref=f6e89] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f6e90] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f6e91] [cursor=pointer]:
+            - /url: /profile
+  - button "Open Next.js Dev Tools" [ref=f6e97] [cursor=pointer]
+  - alert [ref=f6e101]

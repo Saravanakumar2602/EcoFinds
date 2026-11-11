@@ -1,0 +1,14 @@
+[     995ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/signup:1
+[    1663ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25631
+[   44104ms] [ERROR] ./src/lib/db.js
+Module parse failed: Identifier 'getDb' has already been declared (358:22)
+| }
+| // Data Access API
+> export async function getDb() {
+|     return getDatabase();
+| }
+
+Import trace for requested module:
+./src/lib/db.js
+./src/app/layout.js @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:57
+[   44129ms] [LOG] {file: Object} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/next-devtools/index.js:1631

@@ -1,0 +1,83 @@
+- generic [active] [ref=f38e1]:
+  - complementary "Announcement" [ref=f38e2]:
+    - generic [ref=f38e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f38e6]:
+    - generic [ref=f38e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f38e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f38e13]:
+          - generic [ref=f38e14]: EcoFinds
+          - generic [ref=f38e15]: Conscious Marketplace
+      - generic [ref=f38e16]:
+        - link "View Cart" [ref=f38e17] [cursor=pointer]:
+          - /url: /cart
+        - button "Open menu" [ref=f38e21] [cursor=pointer]
+  - main [ref=f38e23]:
+    - generic [ref=f38e25]:
+      - generic [ref=f38e26]:
+        - generic [ref=f38e27]: Mindful Basket
+        - heading "Your Shopping Cart" [level=1] [ref=f38e31]
+        - paragraph [ref=f38e32]: Review your curated sustainable picks before choosing carbon-neutral packaging.
+      - generic [ref=f38e33]:
+        - heading "Your eco-basket is currently empty" [level=2] [ref=f38e38]
+        - paragraph [ref=f38e39]: Discover handcrafted kitchen goods, botanical skincare, and upcycled treasures from verified independent artisans.
+        - link "Explore Sustainable Finds" [ref=f38e40] [cursor=pointer]:
+          - /url: /products
+  - contentinfo [ref=f38e43]:
+    - generic [ref=f38e44]:
+      - generic [ref=f38e45]:
+        - generic [ref=f38e46]:
+          - heading "EcoFinds" [level=3] [ref=f38e47]
+          - paragraph [ref=f38e48]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f38e49]:
+            - generic [ref=f38e50]: 🌱 100% Carbon Offset
+            - generic [ref=f38e51]: 📦 Zero Plastic Mailers
+        - generic [ref=f38e52]:
+          - heading "Marketplace" [level=4] [ref=f38e53]
+          - list [ref=f38e54]:
+            - listitem [ref=f38e55]:
+              - link "Kitchen & Dining" [ref=f38e56] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f38e57]:
+              - link "Botanical Care" [ref=f38e58] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f38e59]:
+              - link "Home & Living" [ref=f38e60] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f38e61]:
+              - link "Upcycled Bags" [ref=f38e62] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f38e63]:
+              - link "Fair-Trade Pantry" [ref=f38e64] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f38e65]:
+          - heading "Community" [level=4] [ref=f38e66]
+          - list [ref=f38e67]:
+            - listitem [ref=f38e68]:
+              - link "Sell Your Creations" [ref=f38e69] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f38e70]:
+              - link "My Orders & Impact" [ref=f38e71] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f38e72]:
+              - link "Upcycled Collection" [ref=f38e73] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f38e74]:
+              - link "Zero Waste Essentials" [ref=f38e75] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f38e76]:
+          - heading "EcoFinds Promise" [level=4] [ref=f38e77]
+          - paragraph [ref=f38e78]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f38e79]:
+            - text: 💚
+            - strong [ref=f38e80]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f38e81]:
+        - generic [ref=f38e82]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f38e83]:
+          - link "Browse All" [ref=f38e84] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f38e85] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f38e86] [cursor=pointer]:
+            - /url: /profile

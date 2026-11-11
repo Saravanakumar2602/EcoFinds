@@ -1,52 +1,23 @@
-import { redirect } from 'next/navigation';
-import { getDb } from '@/lib/db';
-import { hashPassword, makeToken } from '@/lib/auth';
-import { cookies } from 'next/headers';
-import Link from 'next/link';
+import SignupForm from "@/components/SignupForm";
+import { getAuthUser } from "@/lib/auth";
+import { redirect } from "next/navigation";
 
-export default function SignupPage() {
-    async function signupAction(formData) {
-        "use server";
-        const email = formData.get("email");
-        const password = formData.get("password");
+export const dynamic = "force-dynamic";
 
-        if (!email || !password) return;
+export default async function SignupPage({ searchParams }) {
+    const user = await getAuthUser();
+    const params = await searchParams;
+    const redirectUrl = params?.redirect || "/products";
 
-        const db = await getDb();
-        const existing = await db.collection("users").findOne({ email });
-        if (existing) {
-            throw new Error("Email already registered");
-        }
-
-        const hashed = await hashPassword(password);
-        await db.collection("users").insertOne({ email, password: hashed });
-
-        const token = await makeToken(email);
-        const cookieStore = await cookies();
-        cookieStore.set("auth_token", token, { httpOnly: true, path: "/" });
-
-        redirect("/products");
+    if (user) {
+        redirect(redirectUrl);
     }
 
+    const initialError = params?.error ? decodeURIComponent(params.error) : null;
+
     return (
-        <div style={{ maxWidth: '400px', margin: '4rem auto' }}>
-            <h1 className="page-title">Create Account</h1>
-            <form action={signupAction} className="glass-card" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                <div>
-                    <label className="input-label">Email</label>
-                    <input name="email" type="email" required className="input-field" placeholder="you@example.com" />
-                </div>
-                <div>
-                    <label className="input-label">Password</label>
-                    <input name="password" type="password" required className="input-field" placeholder="••••••••" />
-                </div>
-                <button type="submit" className="btn-primary" style={{ width: '100%', marginTop: '1rem' }}>
-                    Sign Up
-                </button>
-                <p style={{ textAlign: 'center', fontSize: '0.875rem', color: 'rgba(255,255,255,0.6)' }}>
-                    Already have an account? <Link href="/login" style={{ color: '#10b981' }}>Log in</Link>
-                </p>
-            </form>
+        <div style={{ padding: "clamp(0.5rem, 2vh, 1.75rem) 0 clamp(1.5rem, 3vh, 2.5rem)" }}>
+            <SignupForm redirectUrl={redirectUrl} initialError={initialError} />
         </div>
     );
 }

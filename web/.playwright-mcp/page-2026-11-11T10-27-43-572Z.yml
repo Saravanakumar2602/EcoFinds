@@ -1,0 +1,1 @@
+- generic [active] [ref=f8e1]: "{\"status\":\"healthy\",\"database\":\"sqlite\",\"users\":[{\"email\":\"demo@ecofinds.com\",\"full_name\":\"Jordan Lee\",\"role\":\"buyer\"},{\"email\":\"artisan@ecofinds.com\",\"full_name\":\"Elena Rostova\",\"role\":\"seller\"},{\"email\":\"clara@example.com\",\"full_name\":\"Clara Vance\",\"role\":\"buyer\"}]}"

@@ -1,0 +1,187 @@
+- generic [active] [ref=f19e1]:
+  - complementary "Announcement" [ref=f19e2]:
+    - generic [ref=f19e5]: Every order plants a native tree & supports verified zero-waste artisans. Enjoy carbon-neutral shipping nationwide.
+  - navigation [ref=f19e6]:
+    - generic [ref=f19e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f19e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f19e13]:
+          - text: EcoFinds
+          - generic [ref=f19e14]: Conscious Marketplace
+      - textbox "Search organic, upcycled, zero-waste..." [ref=f19e19]
+      - generic [ref=f19e20]:
+        - link "Marketplace" [ref=f19e21] [cursor=pointer]:
+          - /url: /products
+        - link "Sell" [ref=f19e22] [cursor=pointer]:
+          - /url: /add-product
+        - link "My Listings" [ref=f19e26] [cursor=pointer]:
+          - /url: /my-listings
+        - link "Cart" [ref=f19e27] [cursor=pointer]:
+          - /url: /cart
+        - link "Elena Rostova Elena" [ref=f19e32] [cursor=pointer]:
+          - /url: /profile
+          - img "Elena Rostova" [ref=f19e33]
+          - generic [ref=f19e34]: Elena
+  - main [ref=f19e35]:
+    - generic [ref=f19e36]:
+      - generic [ref=f19e37]:
+        - link "Home" [ref=f19e38] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f19e39]: /
+        - link "Marketplace" [ref=f19e40] [cursor=pointer]:
+          - /url: /products
+        - generic [ref=f19e41]: /
+        - link "Personal Care" [ref=f19e42] [cursor=pointer]:
+          - /url: /products?category=Personal%20Care
+        - generic [ref=f19e43]: /
+        - generic [ref=f19e44]: Organic Wild Lavender & Shea Herbal Balm
+      - generic [ref=f19e45]:
+        - generic [ref=f19e46]:
+          - generic [ref=f19e47]:
+            - img "Organic Wild Lavender & Shea Herbal Balm" [ref=f19e48]
+            - generic [ref=f19e49]:
+              - generic [ref=f19e50]: Zero Waste
+              - generic [ref=f19e51]: Brand New
+          - generic [ref=f19e52]:
+            - heading "Eco-Impact Specifications" [level=4] [ref=f19e57]
+            - generic [ref=f19e58]:
+              - generic [ref=f19e59]:
+                - generic [ref=f19e60]: "Carbon Diverted:"
+                - strong [ref=f19e61]: "-2.4 kg CO₂ eq"
+              - generic [ref=f19e62]:
+                - generic [ref=f19e63]: "Raw Materials:"
+                - strong [ref=f19e64]: Wild Oregon Lavender, Fair-Trade Shea Butter, Beeswax
+              - generic [ref=f19e65]:
+                - generic [ref=f19e66]: "Packaging:"
+                - strong [ref=f19e67]: 100% Compostable Cornstarch
+              - generic [ref=f19e68]:
+                - generic [ref=f19e69]: "Shipping:"
+                - strong [ref=f19e70]: Carbon-Neutral Certified
+        - generic [ref=f19e71]:
+          - generic [ref=f19e72]: Personal Care
+          - heading "Organic Wild Lavender & Shea Herbal Balm" [level=1] [ref=f19e74]
+          - generic [ref=f19e75]:
+            - generic [ref=f19e76]:
+              - strong [ref=f19e79]: "5"
+              - generic [ref=f19e80]: (0 customer reviews)
+            - link "Read Reviews" [ref=f19e81] [cursor=pointer]:
+              - /url: "#reviews"
+          - generic [ref=f19e82]:
+            - generic [ref=f19e83]: $16.50
+            - generic [ref=f19e84]: $22.00
+            - generic [ref=f19e85]: Save 25%
+            - generic [ref=f19e86]: Taxes included
+          - generic [ref=f19e87]:
+            - heading "Artisan Note & Narrative" [level=3] [ref=f19e88]
+            - paragraph [ref=f19e89]: A multipurpose soothing balm formulated with slow-infused solar macerated organic lavender blooms and unrefined shea butter. Nourishes dry hands, cuticles, and chapped lips with zero synthetic preservatives. Comes in a recyclable aluminum slider tin.
+          - generic [ref=f19e90]:
+            - generic [ref=f19e94]: In Stock (20 units available)
+            - generic [ref=f19e95]: — Ready for immediate plastic-free dispatch
+          - generic [ref=f19e96]:
+            - generic [ref=f19e97]:
+              - generic [ref=f19e98]:
+                - generic [ref=f19e99]: Quantity
+                - combobox [ref=f19e100]:
+                  - option "1" [selected]
+                  - option "2"
+                  - option "3"
+                  - option "4"
+                  - option "5"
+                  - option "8"
+                  - option "10"
+              - button "Add to Cart • $16.50" [ref=f19e101] [cursor=pointer]
+            - generic [ref=f19e105]:
+              - generic [ref=f19e106]: 🌿 Carbon-Neutral Delivery
+              - generic [ref=f19e107]: •
+              - generic [ref=f19e108]: 📦 30-Day Mindful Returns
+          - generic [ref=f19e109]:
+            - img "Elena Rostova" [ref=f19e110]
+            - generic [ref=f19e111]:
+              - generic [ref=f19e112]:
+                - strong [ref=f19e113]: Elena Rostova
+                - generic [ref=f19e114]: Verified Artisan
+              - paragraph [ref=f19e115]: Artisan botanist & sustainable crafts designer with 8+ years creating low-waste lifestyle goods.
+      - generic [ref=f19e116]:
+        - generic [ref=f19e117]:
+          - generic [ref=f19e118]:
+            - generic [ref=f19e119]: Verified Feedback
+            - heading "Customer Experiences (0)" [level=2] [ref=f19e123]
+          - generic [ref=f19e125]:
+            - generic [ref=f19e126]: 5 / 5.0
+            - generic [ref=f19e127]: Overall Satisfaction
+        - generic [ref=f19e128]:
+          - paragraph [ref=f19e130]: No reviews yet. Be the first to share your mindful experience with this product!
+          - generic [ref=f19e131]:
+            - heading "Leave Your Review" [level=3] [ref=f19e132]
+            - paragraph [ref=f19e133]: Help other conscious shoppers understand the quality, durability, and craftsmanship.
+            - generic [ref=f19e134]:
+              - generic [ref=f19e135]:
+                - generic [ref=f19e136]: Your Rating
+                - combobox [ref=f19e137]:
+                  - option "★★★★★ (5 Stars - Exceptional Quality)" [selected]
+                  - option "★★★★☆ (4 Stars - Very Good)"
+                  - option "★★★☆☆ (3 Stars - Average)"
+                  - option "★★☆☆☆ (2 Stars - Needs Improvement)"
+                  - option "★☆☆☆☆ (1 Star - Poor)"
+              - generic [ref=f19e138]:
+                - generic [ref=f19e139]: Your Review
+                - textbox "Describe the materials, feel, packaging, and how it holds up..." [ref=f19e140]
+              - button "Submit Verified Review" [ref=f19e141] [cursor=pointer]
+  - contentinfo [ref=f19e142]:
+    - generic [ref=f19e143]:
+      - generic [ref=f19e144]:
+        - generic [ref=f19e145]:
+          - heading "EcoFinds" [level=3] [ref=f19e146]
+          - paragraph [ref=f19e147]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f19e148]:
+            - generic [ref=f19e149]: 🌱 100% Carbon Offset
+            - generic [ref=f19e150]: 📦 Zero Plastic Mailers
+        - generic [ref=f19e151]:
+          - heading "Marketplace" [level=4] [ref=f19e152]
+          - list [ref=f19e153]:
+            - listitem [ref=f19e154]:
+              - link "Kitchen & Dining" [ref=f19e155] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f19e156]:
+              - link "Botanical Care" [ref=f19e157] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f19e158]:
+              - link "Home & Living" [ref=f19e159] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f19e160]:
+              - link "Upcycled Bags" [ref=f19e161] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f19e162]:
+              - link "Fair-Trade Pantry" [ref=f19e163] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f19e164]:
+          - heading "Community" [level=4] [ref=f19e165]
+          - list [ref=f19e166]:
+            - listitem [ref=f19e167]:
+              - link "Sell Your Creations" [ref=f19e168] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f19e169]:
+              - link "My Orders & Impact" [ref=f19e170] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f19e171]:
+              - link "Upcycled Collection" [ref=f19e172] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f19e173]:
+              - link "Zero Waste Essentials" [ref=f19e174] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f19e175]:
+          - heading "EcoFinds Promise" [level=4] [ref=f19e176]
+          - paragraph [ref=f19e177]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f19e178]:
+            - text: 💚
+            - strong [ref=f19e179]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f19e180]:
+        - generic [ref=f19e181]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f19e182]:
+          - link "Browse All" [ref=f19e183] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f19e184] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f19e185] [cursor=pointer]:
+            - /url: /profile

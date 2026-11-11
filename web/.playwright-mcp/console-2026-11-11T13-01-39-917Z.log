@@ -1,0 +1,81 @@
+[      71ms] [LOG] [Fast Refresh] done in 1794402099987ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:14
+[    1379ms] [ERROR] ./src/lib/db.js
+Module parse failed: Identifier 'getDb' has already been declared (358:22)
+| }
+| // Data Access API
+> export async function getDb() {
+|     return getDatabase();
+| }
+
+Import trace for requested module:
+./src/lib/db.js
+./src/app/layout.js @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:57
+[    1391ms] [LOG] {file: Object} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/next-devtools/index.js:1631
+[    1471ms] [LOG] [Fast Refresh] done in 1794402101387ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:14
+[    3317ms] [LOG] [Fast Refresh] done in 1794402103234ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:14
+[    3916ms] [ERROR] ./src/lib/db.js
+Module parse failed: Identifier 'getDb' has already been declared (358:22)
+| }
+| // Data Access API
+> export async function getDb() {
+|     return getDatabase();
+| }
+
+Import trace for requested module:
+./src/lib/db.js
+./src/app/api/health/route.js @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:57
+[    3923ms] [LOG] {file: Object} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/next-devtools/index.js:1631
+[    9632ms] [LOG] [Fast Refresh] done in 1794402109549ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:14
+[   10597ms] [LOG] [Fast Refresh] done in 1794402110514ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/report-hmr-latency.js:14
+[   12073ms] [ERROR] ./src/lib/db.js
+Module parse failed: Identifier 'getDb' has already been declared (358:22)
+| }
+| // Data Access API
+> export async function getDb() {
+|     return getDatabase();
+| }
+
+Import trace for requested module:
+./src/lib/db.js
+./src/app/api/health/route.js @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:57
+[   12077ms] [LOG] {file: Object} @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/next-devtools/index.js:1631
+[   12386ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/health:1
+[   12868ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:28005
+[   13092ms] ModuleParseError: Module parse failed: Identifier 'getDb' has already been declared (358:22)
+File was processed with these loaders:
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/index.js
+ * ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+You may need an additional loader to handle the result of these loaders.
+| }
+| // Data Access API
+> export async function getDb() {
+|     return getDatabase();
+| }
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\webpack\bundle5.js:29:410378)
+    at <unknown> (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\webpack\bundle5.js:29:411994)
+    at processResult (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\webpack\bundle5.js:29:407859)
+    at <unknown> (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\webpack\bundle5.js:29:408881)
+    at <unknown> (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5650)
+    at <unknown> (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5879)
+    at r.callback (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+    at Object.transformSource (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\build\webpack\loaders\next-flight-loader\index.js:191:10)
+    at LOADER_EXECUTION (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4134)
+    at runSyncOrAsync (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4145)
+    at iterateNormalLoaders (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5782)
+    at <unknown> (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5142)
+    at r.callback (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+    at <unknown> (file://C:\Saravanakumar G\Projects\Odoo-Hackathon\EcoFinds\web\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js:224:23)
+[   13073ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:46
+[   13077ms] [ERROR] ./src/lib/db.js
+Module parse failed: Identifier 'getDb' has already been declared (358:22)
+| }
+| // Data Access API
+> export async function getDb() {
+|     return getDatabase();
+| } @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:77
+[   13214ms] [LOG] {file: Object} @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/compiled/next-devtools/index.js:1631
+[   33080ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/22bc447834e07fde.webpack.hot-update.json:1
+[   33080ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:348

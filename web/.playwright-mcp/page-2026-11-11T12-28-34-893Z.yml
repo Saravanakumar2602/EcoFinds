@@ -1,0 +1,452 @@
+- generic [active] [ref=f31e1]:
+  - complementary "Announcement" [ref=f31e2]:
+    - generic [ref=f31e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f31e6]:
+    - generic [ref=f31e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f31e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f31e13]:
+          - generic [ref=f31e14]: EcoFinds
+          - generic [ref=f31e15]: Conscious Marketplace
+      - generic [ref=f31e16]:
+        - link "View Cart" [ref=f31e17] [cursor=pointer]:
+          - /url: /cart
+        - button "Open menu" [ref=f31e21] [cursor=pointer]
+  - main [ref=f31e23]:
+    - generic [ref=f31e25]:
+      - generic [ref=f31e26]:
+        - generic [ref=f31e27]: Verified Sustainable Catalog
+        - generic [ref=f31e31]:
+          - generic [ref=f31e32]:
+            - heading "The Marketplace" [level=1] [ref=f31e33]
+            - paragraph [ref=f31e34]: Every item is verified for plastic-free packaging, closed-loop materials, and ethical labor standards.
+          - textbox "Search materials, crafts, titles..." [ref=f31e39]
+      - generic [ref=f31e40]:
+        - generic [ref=f31e41]:
+          - generic [ref=f31e42]: "Category:"
+          - link "All" [ref=f31e43] [cursor=pointer]:
+            - /url: /products
+          - link "Kitchen & Dining" [ref=f31e44] [cursor=pointer]:
+            - /url: /products?category=Kitchen+%26+Dining
+          - link "Personal Care" [ref=f31e45] [cursor=pointer]:
+            - /url: /products?category=Personal+Care
+          - link "Home & Living" [ref=f31e46] [cursor=pointer]:
+            - /url: /products?category=Home+%26+Living
+          - link "Fashion & Bags" [ref=f31e47] [cursor=pointer]:
+            - /url: /products?category=Fashion+%26+Bags
+          - link "Food & Pantry" [ref=f31e48] [cursor=pointer]:
+            - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f31e49]:
+          - generic [ref=f31e50]:
+            - generic [ref=f31e51]: "Eco Impact:"
+            - link "All" [ref=f31e52] [cursor=pointer]:
+              - /url: /products
+            - link "Zero Waste" [ref=f31e53] [cursor=pointer]:
+              - /url: /products?eco_badge=Zero+Waste
+            - link "Certified Organic" [ref=f31e54] [cursor=pointer]:
+              - /url: /products?eco_badge=Certified+Organic
+            - link "Upcycled" [ref=f31e55] [cursor=pointer]:
+              - /url: /products?eco_badge=Upcycled
+            - link "Plastic-Free" [ref=f31e56] [cursor=pointer]:
+              - /url: /products?eco_badge=Plastic-Free
+            - link "Non-Toxic" [ref=f31e57] [cursor=pointer]:
+              - /url: /products?eco_badge=Non-Toxic
+            - link "Fair Trade" [ref=f31e58] [cursor=pointer]:
+              - /url: /products?eco_badge=Fair+Trade
+          - generic [ref=f31e59]:
+            - generic [ref=f31e60]: "Sort:"
+            - generic [ref=f31e64]:
+              - link "Newest" [ref=f31e65] [cursor=pointer]:
+                - /url: /products
+              - 'link "Price: Low" [ref=f31e66] [cursor=pointer]':
+                - /url: /products?sort=price_asc
+              - 'link "Price: High" [ref=f31e67] [cursor=pointer]':
+                - /url: /products?sort=price_desc
+              - link "Top Rated" [ref=f31e68] [cursor=pointer]:
+                - /url: /products?sort=rating
+              - link "Most CO₂ Saved" [ref=f31e69] [cursor=pointer]:
+                - /url: /products?sort=impact
+      - generic [ref=f31e70]:
+        - generic [ref=f31e71]:
+          - generic [ref=f31e72]:
+            - link [ref=f31e73] [cursor=pointer]:
+              - /url: /products/13
+              - img "Organic Wild Lavender & Shea Herbal Balm" [ref=f31e74]
+            - generic [ref=f31e75]:
+              - generic [ref=f31e76]: Zero Waste
+              - generic [ref=f31e77]: 🌱 -2.4kg CO₂
+          - generic [ref=f31e78]:
+            - generic [ref=f31e79]:
+              - generic [ref=f31e80]: Personal Care
+              - generic [ref=f31e81]: 5 (1)
+            - heading [level=3] [ref=f31e85]:
+              - link "Organic Wild Lavender & Shea Herbal Balm" [ref=f31e86] [cursor=pointer]:
+                - /url: /products/13
+            - paragraph [ref=f31e87]: A multipurpose soothing balm formulated with slow-infused solar macerated organic lavender blooms and unrefined shea butter. Nourishes dry hands, cuticles, and chapped lips with zero synthetic preservatives. Comes in a recyclable aluminum slider tin.
+            - generic [ref=f31e88]:
+              - generic [ref=f31e89]:
+                - generic [ref=f31e90]: $16.50
+                - generic [ref=f31e91]: $22.00
+              - generic [ref=f31e92]:
+                - link "Details" [ref=f31e93] [cursor=pointer]:
+                  - /url: /products/13
+                - link "Add" [ref=f31e94] [cursor=pointer]:
+                  - /url: /cart/add?id=13
+        - generic [ref=f31e99]:
+          - generic [ref=f31e100]:
+            - link [ref=f31e101] [cursor=pointer]:
+              - /url: /products/12
+              - img "Handwoven Natural Jute & Recycled Chindi Floor Runner (2x6 ft)" [ref=f31e102]
+            - generic [ref=f31e103]:
+              - generic [ref=f31e104]: Fair Trade Handwoven
+              - generic [ref=f31e105]: 🌱 -6.2kg CO₂
+          - generic [ref=f31e106]:
+            - generic [ref=f31e107]:
+              - generic [ref=f31e108]: Home & Living
+              - generic [ref=f31e109]: 4.8 (12)
+            - heading [level=3] [ref=f31e113]:
+              - link "Handwoven Natural Jute & Recycled Chindi Floor Runner (2x6 ft)" [ref=f31e114] [cursor=pointer]:
+                - /url: /products/12
+            - paragraph [ref=f31e115]: Artisan-loomed by rural women's weaving collectives using fast-growing golden jute and upcycled discarded cotton sari selvage. Reversible, naturally textured, and adds warm boho charm to hallways, kitchens, or entryways while preventing textile scrap from landfills.
+            - generic [ref=f31e116]:
+              - generic [ref=f31e117]:
+                - generic [ref=f31e118]: $52.00
+                - generic [ref=f31e119]: $68.00
+              - generic [ref=f31e120]:
+                - link "Details" [ref=f31e121] [cursor=pointer]:
+                  - /url: /products/12
+                - link "Add" [ref=f31e122] [cursor=pointer]:
+                  - /url: /cart/add?id=12
+        - generic [ref=f31e127]:
+          - generic [ref=f31e128]:
+            - link [ref=f31e129] [cursor=pointer]:
+              - /url: /products/11
+              - img "Fair-Trade Shade-Grown Organic Coffee Beans (1kg Bag)" [ref=f31e130]
+            - generic [ref=f31e131]:
+              - generic [ref=f31e132]: Fair Trade
+              - generic [ref=f31e133]: 🌱 -3.7kg CO₂
+          - generic [ref=f31e134]:
+            - generic [ref=f31e135]:
+              - generic [ref=f31e136]: Food & Pantry
+              - generic [ref=f31e137]: 5 (38)
+            - heading [level=3] [ref=f31e141]:
+              - link "Fair-Trade Shade-Grown Organic Coffee Beans (1kg Bag)" [ref=f31e142] [cursor=pointer]:
+                - /url: /products/11
+            - paragraph [ref=f31e143]: Direct-trade micro-lot beans cultivated under high-canopy cloud forests in Oaxaca, Mexico. Grown alongside native shade trees that preserve migratory bird habitats. Delivers velvety tasting notes of dark chocolate, toasted hazelnut, and sweet brown sugar. Shipped in 100% home-compostable valve bags.
+            - generic [ref=f31e144]:
+              - generic [ref=f31e145]:
+                - generic [ref=f31e146]: $24.00
+                - generic [ref=f31e147]: $29.00
+              - generic [ref=f31e148]:
+                - link "Details" [ref=f31e149] [cursor=pointer]:
+                  - /url: /products/11
+                - link "Add" [ref=f31e150] [cursor=pointer]:
+                  - /url: /cart/add?id=11
+        - generic [ref=f31e155]:
+          - generic [ref=f31e156]:
+            - link [ref=f31e157] [cursor=pointer]:
+              - /url: /products/10
+              - img "Solid Concentrated Shampoo & Conditioner Bar Set (Mint & Rosemary)" [ref=f31e158]
+            - generic [ref=f31e159]:
+              - generic [ref=f31e160]: Plastic-Free
+              - generic [ref=f31e161]: 🌱 -2.1kg CO₂
+          - generic [ref=f31e162]:
+            - generic [ref=f31e163]:
+              - generic [ref=f31e164]: Personal Care
+              - generic [ref=f31e165]: 4.9 (22)
+            - heading [level=3] [ref=f31e169]:
+              - link "Solid Concentrated Shampoo & Conditioner Bar Set (Mint & Rosemary)" [ref=f31e170] [cursor=pointer]:
+                - /url: /products/10
+            - paragraph [ref=f31e171]: Equal to three plastic shampoo bottles per bar. Hand-pressed with invigorating peppermint essential oil, French green clay, and rosemary extract to stimulate follicles and balance scalp oils. pH-balanced, vegan, and packaged in a rust-proof aluminum travel tin.
+            - generic [ref=f31e172]:
+              - generic [ref=f31e173]:
+                - generic [ref=f31e174]: $19.50
+                - generic [ref=f31e175]: $25.00
+              - generic [ref=f31e176]:
+                - link "Details" [ref=f31e177] [cursor=pointer]:
+                  - /url: /products/10
+                - link "Add" [ref=f31e178] [cursor=pointer]:
+                  - /url: /cart/add?id=10
+        - generic [ref=f31e183]:
+          - generic [ref=f31e184]:
+            - link [ref=f31e185] [cursor=pointer]:
+              - /url: /products/9
+              - img "Reclaimed Walnut & Brass Desktop Organization Tray" [ref=f31e186]
+            - generic [ref=f31e187]:
+              - generic [ref=f31e188]: Upcycled
+              - generic [ref=f31e189]: 🌱 -4.8kg CO₂
+          - generic [ref=f31e190]:
+            - generic [ref=f31e191]:
+              - generic [ref=f31e192]: Home & Living
+              - generic [ref=f31e193]: 5 (6)
+            - heading [level=3] [ref=f31e197]:
+              - link "Reclaimed Walnut & Brass Desktop Organization Tray" [ref=f31e198] [cursor=pointer]:
+                - /url: /products/9
+            - paragraph [ref=f31e199]: Hand-milled from salvaged cabinetry offcuts that would otherwise have ended up in municipal wood chipping. Finished by hand with food-safe organic walnut oil and beeswax for a rich, satin sheen. Features precision-routed channels for fountain pens, glasses, and phone.
+            - generic [ref=f31e200]:
+              - generic [ref=f31e201]:
+                - generic [ref=f31e202]: $48.00
+                - generic [ref=f31e203]: $65.00
+              - generic [ref=f31e204]:
+                - link "Details" [ref=f31e205] [cursor=pointer]:
+                  - /url: /products/9
+                - link "Add" [ref=f31e206] [cursor=pointer]:
+                  - /url: /cart/add?id=9
+        - generic [ref=f31e211]:
+          - generic [ref=f31e212]:
+            - link [ref=f31e213] [cursor=pointer]:
+              - /url: /products/8
+              - img "Biodegradable Coconut Coir Kitchen Scrubber Sponges (5-Pack)" [ref=f31e214]
+            - generic [ref=f31e215]:
+              - generic [ref=f31e216]: 100% Compostable
+              - generic [ref=f31e217]: 🌱 -1.4kg CO₂
+          - generic [ref=f31e218]:
+            - generic [ref=f31e219]:
+              - generic [ref=f31e220]: Kitchen & Dining
+              - generic [ref=f31e221]: 4.7 (31)
+            - heading [level=3] [ref=f31e225]:
+              - link "Biodegradable Coconut Coir Kitchen Scrubber Sponges (5-Pack)" [ref=f31e226] [cursor=pointer]:
+                - /url: /products/8
+            - paragraph [ref=f31e227]: Ditch microplastic-shedding synthetic green sponges forever. Made from natural coconut husk fibers bonded with tree rubber latex and stitched to an unbleached cellulose sponge base. Tough on grease yet gentle on non-stick cookware. 100% backyard compostable at end of life.
+            - generic [ref=f31e228]:
+              - generic [ref=f31e229]:
+                - generic [ref=f31e230]: $11.50
+                - generic [ref=f31e231]: $15.00
+              - generic [ref=f31e232]:
+                - link "Details" [ref=f31e233] [cursor=pointer]:
+                  - /url: /products/8
+                - link "Add" [ref=f31e234] [cursor=pointer]:
+                  - /url: /cart/add?id=8
+        - generic [ref=f31e239]:
+          - generic [ref=f31e240]:
+            - link [ref=f31e241] [cursor=pointer]:
+              - /url: /products/7
+              - img "Vacuum Insulated Stainless Steel & Bamboo Canteen (750ml)" [ref=f31e242]
+            - generic [ref=f31e243]:
+              - generic [ref=f31e244]: Zero Waste
+              - generic [ref=f31e245]: 🌱 -4.5kg CO₂
+          - generic [ref=f31e246]:
+            - generic [ref=f31e247]:
+              - generic [ref=f31e248]: Personal Care
+              - generic [ref=f31e249]: 4.8 (27)
+            - heading [level=3] [ref=f31e253]:
+              - link "Vacuum Insulated Stainless Steel & Bamboo Canteen (750ml)" [ref=f31e254] [cursor=pointer]:
+                - /url: /products/7
+            - paragraph [ref=f31e255]: Keep cold beverages crisp for 24 hours or piping hot for 12 hours. Built from food-grade 18/8 stainless steel that never leaches flavors. Capped with an FSC-certified natural bamboo lid and silicone leak-proof gasket. Wide mouth design fits whole ice cubes and is easy to clean.
+            - generic [ref=f31e256]:
+              - generic [ref=f31e257]:
+                - generic [ref=f31e258]: $29.00
+                - generic [ref=f31e259]: $38.00
+              - generic [ref=f31e260]:
+                - link "Details" [ref=f31e261] [cursor=pointer]:
+                  - /url: /products/7
+                - link "Add" [ref=f31e262] [cursor=pointer]:
+                  - /url: /cart/add?id=7
+        - generic [ref=f31e267]:
+          - generic [ref=f31e268]:
+            - link [ref=f31e269] [cursor=pointer]:
+              - /url: /products/6
+              - img "Hand-Poured Wildflower Honeycomb & Beeswax Candle" [ref=f31e270]
+            - generic [ref=f31e271]:
+              - generic [ref=f31e272]: Non-Toxic
+              - generic [ref=f31e273]: 🌱 -1.2kg CO₂
+          - generic [ref=f31e274]:
+            - generic [ref=f31e275]:
+              - generic [ref=f31e276]: Home & Living
+              - generic [ref=f31e277]: 4.9 (16)
+            - heading [level=3] [ref=f31e281]:
+              - link "Hand-Poured Wildflower Honeycomb & Beeswax Candle" [ref=f31e282] [cursor=pointer]:
+                - /url: /products/6
+            - paragraph [ref=f31e283]: Sustainably harvested cappings from family-owned ethical apiaries in the Pacific Northwest. Emits negative ions when burned to naturally cleanse household air of dust and allergens. Emits a delicate, natural sweet honey aroma without synthetic additives or paraffin.
+            - generic [ref=f31e284]:
+              - generic [ref=f31e285]:
+                - generic [ref=f31e286]: $21.00
+                - generic [ref=f31e287]: $26.00
+              - generic [ref=f31e288]:
+                - link "Details" [ref=f31e289] [cursor=pointer]:
+                  - /url: /products/6
+                - link "Add" [ref=f31e290] [cursor=pointer]:
+                  - /url: /cart/add?id=6
+        - generic [ref=f31e295]:
+          - generic [ref=f31e296]:
+            - link [ref=f31e297] [cursor=pointer]:
+              - /url: /products/5
+              - img "GOTS Certified Belgian Flax Linen Kitchen Towels (Set of 3)" [ref=f31e298]
+            - generic [ref=f31e299]:
+              - generic [ref=f31e300]: GOTS Organic
+              - generic [ref=f31e301]: 🌱 -3.1kg CO₂
+          - generic [ref=f31e302]:
+            - generic [ref=f31e303]:
+              - generic [ref=f31e304]: Kitchen & Dining
+              - generic [ref=f31e305]: 4.9 (19)
+            - heading [level=3] [ref=f31e309]:
+              - link "GOTS Certified Belgian Flax Linen Kitchen Towels (Set of 3)" [ref=f31e310] [cursor=pointer]:
+                - /url: /products/5
+            - paragraph [ref=f31e311]: Woven from unbleached European flax grown without synthetic fertilizers or pesticides. Stone-washed for immediate softness and unmatched absorbency. Dries twice as fast as conventional cotton and naturally resists bacterial growth. Gets softer and more pliable with every wash cycle.
+            - generic [ref=f31e312]:
+              - generic [ref=f31e313]:
+                - generic [ref=f31e314]: $26.50
+                - generic [ref=f31e315]: $34.00
+              - generic [ref=f31e316]:
+                - link "Details" [ref=f31e317] [cursor=pointer]:
+                  - /url: /products/5
+                - link "Add" [ref=f31e318] [cursor=pointer]:
+                  - /url: /cart/add?id=5
+        - generic [ref=f31e323]:
+          - generic [ref=f31e324]:
+            - link [ref=f31e325] [cursor=pointer]:
+              - /url: /products/4
+              - img "Recycled Amber Glass Botanical Reed Diffuser" [ref=f31e326]
+            - generic [ref=f31e327]:
+              - generic [ref=f31e328]: Plastic-Free
+              - generic [ref=f31e329]: 🌱 -1.9kg CO₂
+          - generic [ref=f31e330]:
+            - generic [ref=f31e331]:
+              - generic [ref=f31e332]: Home & Living
+              - generic [ref=f31e333]: 4.7 (11)
+            - heading [level=3] [ref=f31e337]:
+              - link "Recycled Amber Glass Botanical Reed Diffuser" [ref=f31e338] [cursor=pointer]:
+                - /url: /products/4
+            - paragraph [ref=f31e339]: Fill your living space with calming notes of eucalyptus, cedarwood, and sweet orange. Blended with pure therapeutic grade essential oils and an organic sugarcane alcohol carrier. Housed in an apothecary jar blown from 100% recycled glass bottles with rattan diffuser reeds.
+            - generic [ref=f31e340]:
+              - generic [ref=f31e341]:
+                - generic [ref=f31e342]: $32.00
+                - generic [ref=f31e343]: $40.00
+              - generic [ref=f31e344]:
+                - link "Details" [ref=f31e345] [cursor=pointer]:
+                  - /url: /products/4
+                - link "Add" [ref=f31e346] [cursor=pointer]:
+                  - /url: /cart/add?id=4
+        - generic [ref=f31e351]:
+          - generic [ref=f31e352]:
+            - link [ref=f31e353] [cursor=pointer]:
+              - /url: /products/3
+              - img "Upcycled Sailcloth Everyday Market Tote" [ref=f31e354]
+            - generic [ref=f31e355]:
+              - generic [ref=f31e356]: Upcycled
+              - generic [ref=f31e357]: 🌱 -5.6kg CO₂
+          - generic [ref=f31e358]:
+            - generic [ref=f31e359]:
+              - generic [ref=f31e360]: Fashion & Bags
+              - generic [ref=f31e361]: 5 (8)
+            - heading [level=3] [ref=f31e365]:
+              - link "Upcycled Sailcloth Everyday Market Tote" [ref=f31e366] [cursor=pointer]:
+                - /url: /products/3
+            - paragraph [ref=f31e367]: Crafted from decommissioned ocean racing sails that survived hundreds of nautical miles. Naturally water-resistant, ultra-durable, and built to withstand decades of daily grocery runs and beach trips. Features reinforced yachting-rope handles and inside zip pocket for keys.
+            - generic [ref=f31e368]:
+              - generic [ref=f31e369]:
+                - generic [ref=f31e370]: $44.00
+                - generic [ref=f31e371]: $58.00
+              - generic [ref=f31e372]:
+                - link "Details" [ref=f31e373] [cursor=pointer]:
+                  - /url: /products/3
+                - link "Add" [ref=f31e374] [cursor=pointer]:
+                  - /url: /cart/add?id=3
+        - generic [ref=f31e379]:
+          - generic [ref=f31e380]:
+            - link [ref=f31e381] [cursor=pointer]:
+              - /url: /products/2
+              - img "Cold-Pressed Botanical Soap Trio (Lavender, Oat & Clay)" [ref=f31e382]
+            - generic [ref=f31e383]:
+              - generic [ref=f31e384]: Certified Organic
+              - generic [ref=f31e385]: 🌱 -1.8kg CO₂
+          - generic [ref=f31e386]:
+            - generic [ref=f31e387]:
+              - generic [ref=f31e388]: Personal Care
+              - generic [ref=f31e389]: 4.8 (23)
+            - heading [level=3] [ref=f31e393]:
+              - link "Cold-Pressed Botanical Soap Trio (Lavender, Oat & Clay)" [ref=f31e394] [cursor=pointer]:
+                - /url: /products/2
+            - paragraph [ref=f31e395]: Hand-swirled in small batches using traditional cold-process saponification. Formulated with organic olive oil, fair-trade shea butter, and essential botanicals. Completely free from palm oil, synthetic fragrances, and sulfates. Packaged in seed-embedded biodegradable paper you can plant to grow wildflowers.
+            - generic [ref=f31e396]:
+              - generic [ref=f31e397]:
+                - generic [ref=f31e398]: $14.00
+                - generic [ref=f31e399]: $18.00
+              - generic [ref=f31e400]:
+                - link "Details" [ref=f31e401] [cursor=pointer]:
+                  - /url: /products/2
+                - link "Add" [ref=f31e402] [cursor=pointer]:
+                  - /url: /cart/add?id=2
+        - generic [ref=f31e407]:
+          - generic [ref=f31e408]:
+            - link [ref=f31e409] [cursor=pointer]:
+              - /url: /products/1
+              - img "Handcrafted Bamboo Cutlery & Straw Travel Set" [ref=f31e410]
+            - generic [ref=f31e411]:
+              - generic [ref=f31e412]: Zero Waste
+              - generic [ref=f31e413]: 🌱 -2.4kg CO₂
+          - generic [ref=f31e414]:
+            - generic [ref=f31e415]:
+              - generic [ref=f31e416]: Kitchen & Dining
+              - generic [ref=f31e417]: 4.9 (14)
+            - heading [level=3] [ref=f31e421]:
+              - link "Handcrafted Bamboo Cutlery & Straw Travel Set" [ref=f31e422] [cursor=pointer]:
+                - /url: /products/1
+            - paragraph [ref=f31e423]: Say goodbye to single-use plastics on the go. Made from 100% organically farmed, heat-cured Moso bamboo, this lightweight travel cutlery roll includes an ergonomic fork, knife, spoon, chopsticks, drinking straw, and natural coconut-fiber cleaning brush enclosed in a washable unbleached linen pouch.
+            - generic [ref=f31e424]:
+              - generic [ref=f31e425]:
+                - generic [ref=f31e426]: $18.50
+                - generic [ref=f31e427]: $24.00
+              - generic [ref=f31e428]:
+                - link "Details" [ref=f31e429] [cursor=pointer]:
+                  - /url: /products/1
+                - link "Add" [ref=f31e430] [cursor=pointer]:
+                  - /url: /cart/add?id=1
+  - contentinfo [ref=f31e435]:
+    - generic [ref=f31e436]:
+      - generic [ref=f31e437]:
+        - generic [ref=f31e438]:
+          - heading "EcoFinds" [level=3] [ref=f31e439]
+          - paragraph [ref=f31e440]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f31e441]:
+            - generic [ref=f31e442]: 🌱 100% Carbon Offset
+            - generic [ref=f31e443]: 📦 Zero Plastic Mailers
+        - generic [ref=f31e444]:
+          - heading "Marketplace" [level=4] [ref=f31e445]
+          - list [ref=f31e446]:
+            - listitem [ref=f31e447]:
+              - link "Kitchen & Dining" [ref=f31e448] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f31e449]:
+              - link "Botanical Care" [ref=f31e450] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f31e451]:
+              - link "Home & Living" [ref=f31e452] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f31e453]:
+              - link "Upcycled Bags" [ref=f31e454] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f31e455]:
+              - link "Fair-Trade Pantry" [ref=f31e456] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f31e457]:
+          - heading "Community" [level=4] [ref=f31e458]
+          - list [ref=f31e459]:
+            - listitem [ref=f31e460]:
+              - link "Sell Your Creations" [ref=f31e461] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f31e462]:
+              - link "My Orders & Impact" [ref=f31e463] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f31e464]:
+              - link "Upcycled Collection" [ref=f31e465] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f31e466]:
+              - link "Zero Waste Essentials" [ref=f31e467] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f31e468]:
+          - heading "EcoFinds Promise" [level=4] [ref=f31e469]
+          - paragraph [ref=f31e470]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f31e471]:
+            - text: 💚
+            - strong [ref=f31e472]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f31e473]:
+        - generic [ref=f31e474]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f31e475]:
+          - link "Browse All" [ref=f31e476] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f31e477] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f31e478] [cursor=pointer]:
+            - /url: /profile

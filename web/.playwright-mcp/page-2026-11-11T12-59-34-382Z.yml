@@ -1,0 +1,187 @@
+- generic [active] [ref=f48e1]:
+  - complementary "Announcement" [ref=f48e2]:
+    - generic [ref=f48e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f48e6]:
+    - generic [ref=f48e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f48e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f48e13]:
+          - generic [ref=f48e14]: EcoFinds
+          - generic [ref=f48e15]: Conscious Marketplace
+      - generic [ref=f48e16]:
+        - link "View Cart" [ref=f48e17] [cursor=pointer]:
+          - /url: /cart
+        - button "Open menu" [ref=f48e21] [cursor=pointer]
+  - main [ref=f48e23]:
+    - generic [ref=f48e25]:
+      - generic [ref=f48e26]:
+        - link "Home" [ref=f48e27] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f48e28]: /
+        - link "Marketplace" [ref=f48e29] [cursor=pointer]:
+          - /url: /products
+        - generic [ref=f48e30]: /
+        - link "Kitchen & Dining" [ref=f48e31] [cursor=pointer]:
+          - /url: /products?category=Kitchen%20%26%20Dining
+        - generic [ref=f48e32]: /
+        - generic [ref=f48e33]: Handcrafted Bamboo Cutlery & Straw Travel Set
+      - generic [ref=f48e34]:
+        - generic [ref=f48e35]:
+          - generic [ref=f48e36]:
+            - img "Handcrafted Bamboo Cutlery & Straw Travel Set" [ref=f48e37]
+            - generic [ref=f48e38]:
+              - generic [ref=f48e39]: Zero Waste
+              - generic [ref=f48e40]: Brand New
+          - generic [ref=f48e41]:
+            - heading "Eco-Impact Specifications" [level=4] [ref=f48e46]
+            - generic [ref=f48e47]:
+              - generic [ref=f48e48]:
+                - generic [ref=f48e49]: "Carbon Diverted:"
+                - strong [ref=f48e50]: "-2.4 kg CO₂ eq"
+              - generic [ref=f48e51]:
+                - generic [ref=f48e52]: "Raw Materials:"
+                - strong [ref=f48e53]: 100% Organic Bamboo & Unbleached Linen
+              - generic [ref=f48e54]:
+                - generic [ref=f48e55]: "Packaging:"
+                - strong [ref=f48e56]: 100% Compostable Cornstarch
+              - generic [ref=f48e57]:
+                - generic [ref=f48e58]: "Shipping:"
+                - strong [ref=f48e59]: Carbon-Neutral Certified
+        - generic [ref=f48e60]:
+          - generic [ref=f48e61]: Kitchen & Dining
+          - heading "Handcrafted Bamboo Cutlery & Straw Travel Set" [level=1] [ref=f48e63]
+          - generic [ref=f48e64]:
+            - generic [ref=f48e65]:
+              - strong [ref=f48e68]: "4.9"
+              - generic [ref=f48e69]: (2 reviews)
+            - link "Read Customer Reviews" [ref=f48e70] [cursor=pointer]:
+              - /url: "#reviews"
+          - generic [ref=f48e71]:
+            - generic [ref=f48e72]: $18.50
+            - generic [ref=f48e73]: $24.00
+            - generic [ref=f48e74]: Save 23%
+            - generic [ref=f48e75]: Taxes included
+          - generic [ref=f48e76]:
+            - heading "Artisan Note & Narrative" [level=3] [ref=f48e77]
+            - paragraph [ref=f48e78]: Say goodbye to single-use plastics on the go. Made from 100% organically farmed, heat-cured Moso bamboo, this lightweight travel cutlery roll includes an ergonomic fork, knife, spoon, chopsticks, drinking straw, and natural coconut-fiber cleaning brush enclosed in a washable unbleached linen pouch.
+          - generic [ref=f48e79]:
+            - generic [ref=f48e83]: In Stock (34 units available)
+            - generic [ref=f48e84]: — Ready for plastic-free shipping
+          - generic [ref=f48e85]:
+            - generic [ref=f48e86]:
+              - generic [ref=f48e87]:
+                - generic [ref=f48e88]: Qty
+                - combobox [ref=f48e89]:
+                  - option "1" [selected]
+                  - option "2"
+                  - option "3"
+                  - option "4"
+                  - option "5"
+                  - option "8"
+                  - option "10"
+              - button "Add to Cart • $18.50" [ref=f48e90] [cursor=pointer]
+            - generic [ref=f48e94]:
+              - generic [ref=f48e95]: 🌿 Carbon-Neutral Delivery
+              - generic [ref=f48e96]: •
+              - generic [ref=f48e97]: 📦 30-Day Mindful Returns
+          - generic [ref=f48e98]:
+            - img "Elena Rostova" [ref=f48e99]
+            - generic [ref=f48e100]:
+              - generic [ref=f48e101]:
+                - strong [ref=f48e102]: Elena Rostova
+                - generic [ref=f48e103]: Verified Artisan
+              - paragraph [ref=f48e104]: Artisan botanist & sustainable crafts designer with 8+ years creating low-waste lifestyle goods.
+      - generic [ref=f48e105]:
+        - generic [ref=f48e106]:
+          - generic [ref=f48e107]:
+            - generic [ref=f48e108]: Verified Feedback
+            - heading "Customer Experiences (2)" [level=2] [ref=f48e112]
+          - generic [ref=f48e113]:
+            - generic [ref=f48e114]: 4.9 / 5.0
+            - generic [ref=f48e115]: Overall Satisfaction
+        - generic [ref=f48e116]:
+          - generic [ref=f48e118]:
+            - generic [ref=f48e119]:
+              - generic [ref=f48e121]:
+                - generic [ref=f48e122]: Jordan Lee
+                - generic [ref=f48e123]: Verified Buyer • 30 Oct 2026
+              - paragraph [ref=f48e135]: "\"Great alternative to flimsy takeout plastic forks. Love the included coconut straw brush too.\""
+            - generic [ref=f48e136]:
+              - generic [ref=f48e138]:
+                - generic [ref=f48e139]: Clara Vance
+                - generic [ref=f48e140]: Verified Buyer • 7 Nov 2026
+              - paragraph [ref=f48e152]: "\"Such high quality! The linen pouch is super neat and the bamboo utensils feel smooth in hand, no splintering whatsoever. I keep them in my daily backpack.\""
+          - generic [ref=f48e153]:
+            - heading "Leave Your Review" [level=3] [ref=f48e154]
+            - paragraph [ref=f48e155]: Help other conscious shoppers understand the quality, durability, and craftsmanship.
+            - generic [ref=f48e156]:
+              - generic [ref=f48e157]:
+                - generic [ref=f48e158]: Your Rating
+                - combobox [ref=f48e159]:
+                  - option "★★★★★ (5 Stars - Exceptional Quality)" [selected]
+                  - option "★★★★☆ (4 Stars - Very Good)"
+                  - option "★★★☆☆ (3 Stars - Average)"
+                  - option "★★☆☆☆ (2 Stars - Needs Improvement)"
+                  - option "★☆☆☆☆ (1 Star - Poor)"
+              - generic [ref=f48e160]:
+                - generic [ref=f48e161]: Your Review
+                - textbox "Describe the materials, feel, packaging, and how it holds up..." [ref=f48e162]
+              - button "Submit Verified Review" [ref=f48e163] [cursor=pointer]
+  - contentinfo [ref=f48e164]:
+    - generic [ref=f48e165]:
+      - generic [ref=f48e166]:
+        - generic [ref=f48e167]:
+          - heading "EcoFinds" [level=3] [ref=f48e168]
+          - paragraph [ref=f48e169]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f48e170]:
+            - generic [ref=f48e171]: 🌱 100% Carbon Offset
+            - generic [ref=f48e172]: 📦 Zero Plastic Mailers
+        - generic [ref=f48e173]:
+          - heading "Marketplace" [level=4] [ref=f48e174]
+          - list [ref=f48e175]:
+            - listitem [ref=f48e176]:
+              - link "Kitchen & Dining" [ref=f48e177] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f48e178]:
+              - link "Botanical Care" [ref=f48e179] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f48e180]:
+              - link "Home & Living" [ref=f48e181] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f48e182]:
+              - link "Upcycled Bags" [ref=f48e183] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f48e184]:
+              - link "Fair-Trade Pantry" [ref=f48e185] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f48e186]:
+          - heading "Community" [level=4] [ref=f48e187]
+          - list [ref=f48e188]:
+            - listitem [ref=f48e189]:
+              - link "Sell Your Creations" [ref=f48e190] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f48e191]:
+              - link "My Orders & Impact" [ref=f48e192] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f48e193]:
+              - link "Upcycled Collection" [ref=f48e194] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f48e195]:
+              - link "Zero Waste Essentials" [ref=f48e196] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f48e197]:
+          - heading "EcoFinds Promise" [level=4] [ref=f48e198]
+          - paragraph [ref=f48e199]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f48e200]:
+            - text: 💚
+            - strong [ref=f48e201]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f48e202]:
+        - generic [ref=f48e203]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f48e204]:
+          - link "Browse All" [ref=f48e205] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f48e206] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f48e207] [cursor=pointer]:
+            - /url: /profile

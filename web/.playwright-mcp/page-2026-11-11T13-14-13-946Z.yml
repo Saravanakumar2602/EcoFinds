@@ -1,0 +1,148 @@
+- generic [active] [ref=f1e1]:
+  - complementary "Announcement" [ref=f1e2]:
+    - generic [ref=f1e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f1e6]:
+    - generic [ref=f1e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f1e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e13]:
+          - generic [ref=f1e14]: EcoFinds
+          - generic [ref=f1e15]: Conscious Marketplace
+      - textbox "Search organic, upcycled, zero-waste..." [ref=f1e20]
+      - generic [ref=f1e21]:
+        - link "Marketplace" [ref=f1e22] [cursor=pointer]:
+          - /url: /products
+        - link "Cart" [ref=f1e23] [cursor=pointer]:
+          - /url: /cart
+        - link "Log In" [ref=f1e28] [cursor=pointer]:
+          - /url: /login
+        - link "Join EcoFinds" [ref=f1e29] [cursor=pointer]:
+          - /url: /signup
+  - main [ref=f1e30]:
+    - generic [ref=f1e168]:
+      - generic [ref=f1e169]:
+        - generic [ref=f1e170]:
+          - generic [ref=f1e171]: EcoFinds Conscious Circle
+          - heading "Where thoughtful making meets intentional living." [level=2] [ref=f1e176]
+          - paragraph [ref=f1e177]: Every purchase directly funds independent zero-waste craftsmen and permanently removes plastic from global waterways.
+        - generic [ref=f1e178]:
+          - generic [ref=f1e179]:
+            - img "Elena Rostova" [ref=f1e180]
+            - generic [ref=f1e181]:
+              - generic [ref=f1e182]: Elena Rostova
+              - generic [ref=f1e183]: Master Herbalist & Linen Crafter • Portland, OR
+          - paragraph [ref=f1e184]: "\"EcoFinds opened a doorway for my small studio to connect with buyers who care deeply about plastic-free living and heirloom quality. 4,200+ plastic bottles diverted so far.\""
+        - generic [ref=f1e185]:
+          - generic [ref=f1e186]:
+            - generic [ref=f1e187]: 12,480 kg
+            - generic [ref=f1e188]: Ocean Plastic Diverted
+          - generic [ref=f1e189]:
+            - generic [ref=f1e190]: 1 Tree
+            - generic [ref=f1e191]: Planted Every Order
+          - generic [ref=f1e192]:
+            - generic [ref=f1e193]: 100%
+            - generic [ref=f1e194]: Plastic-Free Mailers
+      - generic [ref=f1e195]:
+        - generic [ref=f1e196]:
+          - generic [ref=f1e197] [cursor=pointer]: Sign In
+          - link "Create Account" [ref=f1e198] [cursor=pointer]:
+            - /url: /signup?redirect=%2Fproducts
+        - generic [ref=f1e199]:
+          - heading "Welcome Back" [level=1] [ref=f1e200]
+          - paragraph [ref=f1e201]: Access your mindful cart, track cumulative CO₂ offsets, and support verified ethical artisans.
+        - generic [ref=f1e202]:
+          - generic [ref=f1e203]: Instant 1-Click Evaluation Logins
+          - paragraph [ref=f1e207]: "Click below to test immediately without manual typing:"
+          - generic [ref=f1e208]:
+            - button "Jordan Lee Jordan Lee Conscious Shopper demo@ecofinds.com • Click to sign in" [ref=f1e209] [cursor=pointer]:
+              - img "Jordan Lee" [ref=f1e210]
+              - generic [ref=f1e211]:
+                - generic [ref=f1e212]:
+                  - strong [ref=f1e213]: Jordan Lee
+                  - generic [ref=f1e214]: Conscious Shopper
+                - generic [ref=f1e215]: demo@ecofinds.com • Click to sign in
+            - button "Elena Rostova Elena Rostova Verified Artisan artisan@ecofinds.com • Click to sign in" [ref=f1e216] [cursor=pointer]:
+              - img "Elena Rostova" [ref=f1e217]
+              - generic [ref=f1e218]:
+                - generic [ref=f1e219]:
+                  - strong [ref=f1e220]: Elena Rostova
+                  - generic [ref=f1e221]: Verified Artisan
+                - generic [ref=f1e222]: artisan@ecofinds.com • Click to sign in
+        - generic [ref=f1e223]:
+          - generic [ref=f1e224]:
+            - generic [ref=f1e225]: Email Address
+            - textbox "Email Address" [ref=f1e227]:
+              - /placeholder: e.g. jordan@example.com
+          - generic [ref=f1e228]:
+            - generic [ref=f1e229]:
+              - generic [ref=f1e230]: Password
+              - generic [ref=f1e231]: "Demo: password123"
+            - generic [ref=f1e232]:
+              - textbox "Password" [ref=f1e233]:
+                - /placeholder: Enter your password
+              - button "Show password" [ref=f1e234] [cursor=pointer]
+          - button "Sign In to EcoFinds" [ref=f1e238] [cursor=pointer]
+        - generic [ref=f1e241]:
+          - generic [ref=f1e242]: 256-Bit SSL Encrypted
+          - generic [ref=f1e247]: Carbon-Neutral Cloud
+          - generic [ref=f1e251]: Zero Spam Guarantee
+  - contentinfo [ref=f1e123]:
+    - generic [ref=f1e124]:
+      - generic [ref=f1e125]:
+        - generic [ref=f1e126]:
+          - heading "EcoFinds" [level=3] [ref=f1e127]
+          - paragraph [ref=f1e128]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f1e129]:
+            - generic [ref=f1e130]: 🌱 100% Carbon Offset
+            - generic [ref=f1e131]: 📦 Zero Plastic Mailers
+        - generic [ref=f1e132]:
+          - heading "Marketplace" [level=4] [ref=f1e133]
+          - list [ref=f1e134]:
+            - listitem [ref=f1e135]:
+              - link "Kitchen & Dining" [ref=f1e136] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f1e137]:
+              - link "Botanical Care" [ref=f1e138] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f1e139]:
+              - link "Home & Living" [ref=f1e140] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f1e141]:
+              - link "Upcycled Bags" [ref=f1e142] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f1e143]:
+              - link "Fair-Trade Pantry" [ref=f1e144] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f1e145]:
+          - heading "Community" [level=4] [ref=f1e146]
+          - list [ref=f1e147]:
+            - listitem [ref=f1e148]:
+              - link "Sell Your Creations" [ref=f1e149] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f1e150]:
+              - link "My Orders & Impact" [ref=f1e151] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f1e152]:
+              - link "Upcycled Collection" [ref=f1e153] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f1e154]:
+              - link "Zero Waste Essentials" [ref=f1e155] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f1e156]:
+          - heading "EcoFinds Promise" [level=4] [ref=f1e157]
+          - paragraph [ref=f1e158]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f1e159]:
+            - text: 💚
+            - strong [ref=f1e160]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f1e161]:
+        - generic [ref=f1e162]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f1e163]:
+          - link "Browse All" [ref=f1e164] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f1e165] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f1e166] [cursor=pointer]:
+            - /url: /profile
+  - button "Open Next.js Dev Tools" [ref=f1e263] [cursor=pointer]
+  - alert [ref=f1e267]: Welcome Back
