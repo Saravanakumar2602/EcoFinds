@@ -1,0 +1,160 @@
+- generic [active] [ref=f6e1]:
+  - complementary "Announcement" [ref=f6e2]:
+    - generic [ref=f6e5]: Every order plants a native tree & supports verified zero-waste artisans. Free carbon-neutral shipping on orders over $40.
+  - navigation [ref=f6e6]:
+    - generic [ref=f6e7]:
+      - link "EcoFinds Conscious Marketplace" [ref=f6e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f6e13]:
+          - generic [ref=f6e14]: EcoFinds
+          - generic [ref=f6e15]: Conscious Marketplace
+      - textbox "Search organic, upcycled, zero-waste..." [ref=f6e20]
+      - generic [ref=f6e21]:
+        - link "Marketplace" [ref=f6e22] [cursor=pointer]:
+          - /url: /products
+        - link "Sell" [ref=f6e23] [cursor=pointer]:
+          - /url: /add-product
+        - link "My Listings" [ref=f6e27] [cursor=pointer]:
+          - /url: /my-listings
+        - link "Cart 1" [ref=f6e204] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f6e32]: Cart
+          - generic [ref=f6e205]: "1"
+        - link "Jordan Lee Jordan" [ref=f6e33] [cursor=pointer]:
+          - /url: /profile
+          - img "Jordan Lee" [ref=f6e34]
+          - generic [ref=f6e35]: Jordan
+  - main [ref=f6e36]:
+    - generic [ref=f6e285]:
+      - generic [ref=f6e286]:
+        - generic [ref=f6e287]: Encrypted & Carbon-Neutral Checkout
+        - heading "Finalize Your Mindful Order" [level=1] [ref=f6e292]
+        - paragraph [ref=f6e293]: Fast, secure, and packaged using zero-plastic plant-based materials.
+      - generic [ref=f6e294]:
+        - generic [ref=f6e295]:
+          - generic [ref=f6e296]:
+            - heading "1. Shipping Destination" [level=3] [ref=f6e297]
+            - generic [ref=f6e302]:
+              - generic [ref=f6e303]:
+                - generic [ref=f6e304]: Full Recipient Name
+                - textbox "Jordan Lee" [ref=f6e305]
+              - generic [ref=f6e306]:
+                - generic [ref=f6e307]: Street Address & Apartment
+                - textbox "123 Eco Way, Suite 200" [ref=f6e308]: 742 Evergreen Terrace, Apt 4B
+              - generic [ref=f6e309]:
+                - generic [ref=f6e310]:
+                  - generic [ref=f6e311]: City
+                  - textbox "Portland" [ref=f6e312]
+                - generic [ref=f6e313]:
+                  - generic [ref=f6e314]: ZIP / Postal
+                  - textbox "97201" [ref=f6e315]
+          - generic [ref=f6e316]:
+            - heading "2. Packaging & Planet Impact" [level=3] [ref=f6e317]
+            - generic [ref=f6e320]:
+              - generic [ref=f6e321] [cursor=pointer]:
+                - radio "Zero-Plastic Compostable Mailer (Recommended) Made from 100% plant cornstarch and kraft paper sealed with water-activated starch tape." [checked] [ref=f6e322]
+                - generic [ref=f6e323]:
+                  - strong [ref=f6e324]: Zero-Plastic Compostable Mailer (Recommended)
+                  - paragraph [ref=f6e325]: Made from 100% plant cornstarch and kraft paper sealed with water-activated starch tape.
+              - generic [ref=f6e326] [cursor=pointer]:
+                - radio "Minimalist Recycled Cardboard Box Folded FSC-certified post-consumer fiber with unbleached crinkle paper padding." [ref=f6e327]
+                - generic [ref=f6e328]:
+                  - strong [ref=f6e329]: Minimalist Recycled Cardboard Box
+                  - paragraph [ref=f6e330]: Folded FSC-certified post-consumer fiber with unbleached crinkle paper padding.
+          - generic [ref=f6e331]:
+            - heading "3. Payment Method (Demo Simulator)" [level=3] [ref=f6e332]
+            - generic [ref=f6e335]:
+              - generic [ref=f6e336]:
+                - generic [ref=f6e337] [cursor=pointer]:
+                  - radio "Credit / Debit Card" [checked] [ref=f6e338]
+                  - generic [ref=f6e339]: Credit / Debit Card
+                - generic [ref=f6e340] [cursor=pointer]:
+                  - radio "EcoPay Offset" [ref=f6e341]
+                  - generic [ref=f6e342]: EcoPay Offset
+              - textbox [ref=f6e343]: 4242 •••• •••• 4242
+              - generic [ref=f6e344]:
+                - textbox [ref=f6e345]: "MM/YY: 12/28"
+                - textbox [ref=f6e346]: "CVV: 888"
+        - generic [ref=f6e347]:
+          - heading "Order Summary (1 item)" [level=3] [ref=f6e348]
+          - generic [ref=f6e350]:
+            - img "Handcrafted Bamboo Cutlery & Straw Travel Set" [ref=f6e351]
+            - generic [ref=f6e352]:
+              - generic [ref=f6e353]: Handcrafted Bamboo Cutlery & Straw Travel Set
+              - generic [ref=f6e354]: "Qty: 1 × $18.50"
+            - generic [ref=f6e355]: $18.50
+          - generic [ref=f6e356]:
+            - generic [ref=f6e357]:
+              - generic [ref=f6e358]: "Subtotal:"
+              - strong [ref=f6e359]: $18.50
+            - generic [ref=f6e360]:
+              - generic [ref=f6e361]: "Carbon-Neutral Delivery:"
+              - generic [ref=f6e362]: $4.50
+            - generic [ref=f6e363]:
+              - generic [ref=f6e364]: "Eden Native Tree Planting:"
+              - strong [ref=f6e365]: Included
+            - generic [ref=f6e366]:
+              - generic [ref=f6e367]: "Total Due:"
+              - generic [ref=f6e368]: $23.00
+          - button "Confirm & Place Order" [ref=f6e369] [cursor=pointer]
+          - generic [ref=f6e372]: Secured with 256-bit SSL & Zero-Waste Verification
+  - contentinfo [ref=f6e160]:
+    - generic [ref=f6e161]:
+      - generic [ref=f6e162]:
+        - generic [ref=f6e163]:
+          - heading "EcoFinds" [level=3] [ref=f6e164]
+          - paragraph [ref=f6e165]: A community-powered marketplace connecting conscious consumers with verified independent artisans crafting low-impact, plastic-free heirlooms.
+          - generic [ref=f6e166]:
+            - generic [ref=f6e167]: 🌱 100% Carbon Offset
+            - generic [ref=f6e168]: 📦 Zero Plastic Mailers
+        - generic [ref=f6e169]:
+          - heading "Marketplace" [level=4] [ref=f6e170]
+          - list [ref=f6e171]:
+            - listitem [ref=f6e172]:
+              - link "Kitchen & Dining" [ref=f6e173] [cursor=pointer]:
+                - /url: /products?category=Kitchen+%26+Dining
+            - listitem [ref=f6e174]:
+              - link "Botanical Care" [ref=f6e175] [cursor=pointer]:
+                - /url: /products?category=Personal+Care
+            - listitem [ref=f6e176]:
+              - link "Home & Living" [ref=f6e177] [cursor=pointer]:
+                - /url: /products?category=Home+%26+Living
+            - listitem [ref=f6e178]:
+              - link "Upcycled Bags" [ref=f6e179] [cursor=pointer]:
+                - /url: /products?category=Fashion+%26+Bags
+            - listitem [ref=f6e180]:
+              - link "Fair-Trade Pantry" [ref=f6e181] [cursor=pointer]:
+                - /url: /products?category=Food+%26+Pantry
+        - generic [ref=f6e182]:
+          - heading "Community" [level=4] [ref=f6e183]
+          - list [ref=f6e184]:
+            - listitem [ref=f6e185]:
+              - link "Sell Your Creations" [ref=f6e186] [cursor=pointer]:
+                - /url: /add-product
+            - listitem [ref=f6e187]:
+              - link "My Orders & Impact" [ref=f6e188] [cursor=pointer]:
+                - /url: /profile
+            - listitem [ref=f6e189]:
+              - link "Upcycled Collection" [ref=f6e190] [cursor=pointer]:
+                - /url: /products?eco_badge=Upcycled
+            - listitem [ref=f6e191]:
+              - link "Zero Waste Essentials" [ref=f6e192] [cursor=pointer]:
+                - /url: /products?eco_badge=Zero+Waste
+        - generic [ref=f6e193]:
+          - heading "EcoFinds Promise" [level=4] [ref=f6e194]
+          - paragraph [ref=f6e195]: Every vendor is rigorously vetted for ethical labor, sustainable materials, and circular packaging.
+          - generic [ref=f6e196]:
+            - text: 💚
+            - strong [ref=f6e197]: 12,480+ kg
+            - text: of plastic diverted from oceans to date.
+      - generic [ref=f6e198]:
+        - generic [ref=f6e199]: © 2026 EcoFinds Inc. Handcrafted for a healthier planet. All rights reserved.
+        - generic [ref=f6e200]:
+          - link "Browse All" [ref=f6e201] [cursor=pointer]:
+            - /url: /products
+          - link "Artisan Dashboard" [ref=f6e202] [cursor=pointer]:
+            - /url: /my-listings
+          - link "Impact Score" [ref=f6e203] [cursor=pointer]:
+            - /url: /profile
+  - button "Open Next.js Dev Tools" [ref=f6e280] [cursor=pointer]
+  - alert [ref=f6e284]
